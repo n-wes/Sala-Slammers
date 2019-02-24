@@ -16,4 +16,4 @@ Members present: Nathan, Hadja, Le, Mitchell, Andrew
 |Wire electronics                 |
 |Begin programming robot          |
 
-![bot-pic](feb23_robot.jpg "bot-pic")
+![bot-pic](Images/feb23_robot.jpg "bot-pic")
