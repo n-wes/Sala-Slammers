@@ -1,0 +1,16 @@
+Link to git commands cheatsheet: https://www.git-tower.com/blog/git-cheat-sheet/
+
+How to clone a repository: git clone <repository link>
+
+Pull from repository: git pull //This keeps you up to date with the main branch
+
+** Do these 3 steps in order to create changes on github repository **
+
+Adding files: git add <file name> //lets you add specific files
+              git add .           //adds all files to repository
+
+Commit Files with message: git commit -m "<insert message here"
+
+Push files: git push //this is the last stage
+
+********************************************************************
