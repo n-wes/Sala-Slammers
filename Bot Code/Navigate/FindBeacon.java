@@ -27,11 +27,17 @@ public class FindBeacon {
 			return false;
 		}
 	}
+	
+	/*
+	 * Find the beacon's angle by getting data from startAngle to endAngle
+	 * We have a boolean array, then find the longest consecutive "true" subsequence
+	 * Return the middle of the subsequence
+	 */
 
-	public static int findBeaconAngle(int startAngle, int endAngle, char beacon) {
+	public static double findBeaconAngle(int startAngle, int endAngle, char beacon) {
 
 		boolean data[] = new boolean[20];
-		int prefixSum[] = new int[20];
+		int startIndex[] = new int[20]; //start position of the longest sub ending at i
 		
 		for (int angle = 0; angle <= 18; angle++) {
 			data[angle] = false;
@@ -42,35 +48,35 @@ public class FindBeacon {
 			data[angle / 10] = isBeacon('K');
 			System.out.println(data[angle / 10]);
 		}
-
-		if (data[0] == true)
-			prefixSum[0] = 1;
-		else
-			prefixSum[0] = 0;
-
-		for (int i = 1; i <= 18; i++) {
-			prefixSum[i] = prefixSum[i - 1];
-			if (data[i] == true)
-				prefixSum[i]++;
-		}
-
-		for (int len = 18; len >= 0; len--) {
-			for (int i = 0; i <= 18 - len; i++) {
-				if (i > 0) {
-					if (prefixSum[i + len] - prefixSum[i - 1] == len + 1) {
-						return (i + len / 2);
-					}
-				} else if (i == 0 && prefixSum[len] == len + 1) {
-					return len / 2;
+		
+		int lenLongestSub = -1, start = -1, end = -1; //details of the finding subsequence
+		
+		
+		for (int i = 0; i <= 18; i++) {
+			if (data[i] == true) {
+				if (i == 0 || data[i - 1] == false) {
+					startIndex[i] = i;
+				}
+				else {
+					startIndex[i] = startIndex[i - 1];
+				}
+				
+				if (lenLongestSub < i - startIndex[i] + 1) { //update maximum
+					
+					lenLongestSub = i - startIndex[i] + 1;
+					start = startIndex[i];
+					end = i;
+					
 				}
 			}
 		}
-		return -1;
+
+		return (start + end) / 2.0;
 	}
 
 	public static void runForward(int time) {
 		int speedLeft = 385;
-		int speedRight = -107;
+		int speedRight = -110;
 
 		robot.runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
 	}
@@ -117,7 +123,7 @@ public class FindBeacon {
 		int cnt = 0;
 		while (cnt <= 2) {
 			cnt++;
-			int angle = 9;
+			double angle = 9;
 			
 			if (cnt == 1) {
 				angle = findBeaconAngle(0, 18, 'K');
@@ -129,18 +135,29 @@ public class FindBeacon {
 			System.out.println(angle);
 			
 			if (angle <= 9) {
-				turnRight(timeTurn[angle]);
+				int tmp = (int) angle * 2;
+				
+				if (tmp % 2 == 0) {
+					turnRight(timeTurn[tmp / 2]);;
+				}
+				else {
+					turnRight((timeTurn[tmp / 2] + timeTurn[tmp / 2 + 1]) / 2);
+				}
 			}
 			else {
-				turnLeft(timeTurn[18 - angle]);
+				int tmp = (int) angle * 2;
+				
+				if (tmp % 2 == 0) {
+					turnLeft(timeTurn[18 - tmp / 2]);;
+				}
+				else {
+					turnLeft((timeTurn[18 - tmp / 2] + timeTurn[17 - tmp / 2]) / 2);
+				}
 			}
 			robot.sleep(300);
-			runForward(2000);
+			runForward(1800);
 			
 		}
-		
-		
-		
 		robot.close();
 	}
 
