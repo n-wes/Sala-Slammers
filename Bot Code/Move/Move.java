@@ -1,15 +1,17 @@
 import rxtxrobot.*;
 
+//12.1 V
+
 public class Move {
 	
 	public static RXTXRobot robot = new ArduinoUno();
 	
-	private static int CHANNEL_LEFT_WHEEL = 0;
-	private static int CHANNEL_RIGHT_WHEEL = 1;
+	final private static int CHANNEL_LEFT_WHEEL = 2;
+	final private static int CHANNEL_RIGHT_WHEEL = 1;
 	
 	public static void runForward(int time) {
-		int speedLeft = 325; 
-		int speedRight = -100;
+		int speedLeft = 385; 
+		int speedRight = -107;
 		
 		robot.runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
 	}
@@ -21,17 +23,24 @@ public class Move {
 		robot.runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
 	}
 	
+	public static void runBackward(int time) {
+		int speedLeft = -98;
+		int speedRight = 325;
+		
+		robot.runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
+	}
+	
 	//720 for 90 deg
 	public static void turnLeft(int time) {
-		int speedLeft = -28;
-		int speedRight = -28;
+		int speedLeft = -26;
+		int speedRight = -26;
 		
 		robot.runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
 	}
 	
 	public static void turnRight(int time) {
-		int speedLeft = 258;
-		int speedRight = 258;
+		int speedLeft = 263;
+		int speedRight = 263;
 		
 		robot.runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
 	}
@@ -39,14 +48,9 @@ public class Move {
 	public static void main(String[] args) {
 		robot.setPort("COM4");
 		robot.connect();
-
-		//runForward(3000);
 		
-		//turnLeft(720);
-		//
-		robot.sleep(3000);
+		//runForward(6000);
 		turnRight(720);
-		
 		
 		robot.close();
 	}

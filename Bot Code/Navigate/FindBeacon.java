@@ -1,79 +1,164 @@
 import rxtxrobot.*;
 
 public class FindBeacon {
+	public static RXTXRobot robot = new ArduinoUno();
 
-	public static void main(String[] args) {
+	final private static int CHANNEL_LEFT_WHEEL = 2;
+	final private static int CHANNEL_RIGHT_WHEEL = 1;
+	final static int CHANNEL_SERVO = 0;
+
+	public static boolean isBeacon(char beacon) {
+
+		int readingCount = 3;
+		int cnt = 0;
+
+		for (int sample = 1; sample <= readingCount; sample++) {
+
+			char signal = robot.getIRChar();
+			System.out.println(signal);
+			if (signal == beacon) {
+				cnt++;
+			}
+		}
+
+		if (cnt == readingCount) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	/*
+	 * Find the beacon's angle by getting data from startAngle to endAngle
+	 * We have a boolean array, then find the longest consecutive "true" subsequence
+	 * Return the middle of the subsequence
+	 */
+
+	public static double findBeaconAngle(int startAngle, int endAngle, char beacon) {
+
+		boolean data[] = new boolean[20];
+		int startIndex[] = new int[20]; //start position of the longest sub ending at i
 		
-		RXTXRobot r = new ArduinoUno();
-		r.setPort("COM5");
-		r.setVerbose(true);
-		r.connect();
+		for (int angle = 0; angle <= 18; angle++) {
+			data[angle] = false;
+		}
+
+		for (int angle = startAngle * 10; angle <= endAngle * 10; angle += 10) {
+			robot.runPCAServo(CHANNEL_SERVO, angle);
+			data[angle / 10] = isBeacon('K');
+			System.out.println(data[angle / 10]);
+		}
 		
-		char beacon = ' ';
-		int locationK = 200;
-		int locationG = 200;
+		int lenLongestSub = -1, start = -1, end = -1; //details of the finding subsequence
 		
-		int [] angles = {0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180};
-		
-		r.runPCAServo( 0 , angles[0] );
 		
 		for (int i = 0; i <= 18; i++) {
-			
-			System.out.println("Running Servo to next angle...");
-			r.runPCAServo( 0 , angles[i] );
-			
-			System.out.println("Taking Samples...");
-			beacon = TakeSamples(r);
-			
-			if (beacon == 'K') {
-				locationK = i * 10;
-			}
-			else if (beacon == 'G') {
-				locationG = i * 10;
-			}
-			
-			System.out.println("That sample picked up - " + beacon + " at angle - " + (i * 10));
-			
-		}//end for loop
-
-		System.out.println("beacon K: " + locationK + "\nbeacon G: " + locationG);
-		
-		r.close();
-		
-	}//end main 
-
-	
-	public static char TakeSamples(RXTXRobot r) {
-		
-		int k = 0;
-		int g = 0;
-		char returnChar = ' ';
-		
-		for (int samples = 1; samples <= 10; samples++) {
-			
-			char ch = r.getIRChar();
-			
-			if(ch == 'K') {
-				k++;
-			}
-			else if(ch == 'G') {
-				g++;
-			}
+			if (data[i] == true) {
+				if (i == 0 || data[i - 1] == false) {
+					startIndex[i] = i;
+				}
+				else {
+					startIndex[i] = startIndex[i - 1];
+				}
+				
+				if (lenLongestSub < i - startIndex[i] + 1) { //update maximum
 					
-		}//end for loop
-		
-		if(k == 10) {
-			returnChar = 'K';
+					lenLongestSub = i - startIndex[i] + 1;
+					start = startIndex[i];
+					end = i;
+					
+				}
+			}
 		}
-		else if (g == 10) {
-			returnChar = 'G';
-		}
-		else {
-			returnChar = '0';
-		}
+
+		return (start + end) / 2.0;
+	}
+
+	public static void runForward(int time) {
+		int speedLeft = 385;
+		int speedRight = -110;
+
+		robot.runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
+	}
+
+	public static void upSlope(int time) {
+		int speedLeft = 500;
+		int speedRight = -350;
+
+		robot.runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
+	}
+
+	public static void runBackward(int time) {
+		int speedLeft = -98;
+		int speedRight = 325;
+
+		robot.runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
+	}
+
+	// 720 for 90 deg
+	public static void turnLeft(int time) {
+		if (time == -1) return;
 		
-		return returnChar;
+		int speedLeft = -26;
+		int speedRight = -26;
+
+		robot.runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
+	}
+
+	public static void turnRight(int time) {
+		if (time == -1) return;
+		int speedLeft = 263;
+		int speedRight = 263;
+
+		robot.runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
+	}
+
+	public static void main(String[] args) {
+
+		robot.setPort("COM4");
+		robot.connect();
 		
-	}//end function TakeSamples
-	
-}//end of class FindBeacon
+		int[] timeTurn = {785, 780, 720, 690, 450, 300, 130, 40, -1, -1}; 
+		
+		int cnt = 0;
+		while (cnt <= 2) {
+			cnt++;
+			double angle = 9;
+			
+			if (cnt == 1) {
+				angle = findBeaconAngle(0, 18, 'K');
+			}
+			else if (cnt == 2) {
+				angle = findBeaconAngle(6, 12, 'K');
+			}
+			
+			System.out.println(angle);
+			
+			if (angle <= 9) {
+				int tmp = (int) angle * 2;
+				
+				if (tmp % 2 == 0) {
+					turnRight(timeTurn[tmp / 2]);;
+				}
+				else {
+					turnRight((timeTurn[tmp / 2] + timeTurn[tmp / 2 + 1]) / 2);
+				}
+			}
+			else {
+				int tmp = (int) angle * 2;
+				
+				if (tmp % 2 == 0) {
+					turnLeft(timeTurn[18 - tmp / 2]);;
+				}
+				else {
+					turnLeft((timeTurn[18 - tmp / 2] + timeTurn[17 - tmp / 2]) / 2);
+				}
+			}
+			robot.sleep(300);
+			runForward(1800);
+			
+		}
+		robot.close();
+	}
+
+}
