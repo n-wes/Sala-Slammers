@@ -13,7 +13,6 @@ public class FindBeacon {
 		int cnt = 0;
 
 		for (int sample = 1; sample <= readingCount; sample++) {
-
 			char signal = robot.getIRChar();
 			System.out.println(signal);
 			if (signal == beacon) {
@@ -112,24 +111,22 @@ public class FindBeacon {
 
 		robot.runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
 	}
-
-	public static void main(String[] args) {
-
-		robot.setPort("COM4");
-		robot.connect();
+	
+	public static void moveTowardBeacon(char beacon) {
 		
-		int[] timeTurn = {785, 780, 720, 690, 450, 300, 130, 40, -1, -1}; 
+		int[] timeTurn = {785, 780, 720, 690, 450, 300, 130, 40, -1, -1, -1, 40, 125, 230, 380, 550, 630, 700, 780}; 
 		
 		int cnt = 0;
+		
 		while (cnt <= 2) {
 			cnt++;
 			double angle = 9;
 			
 			if (cnt == 1) {
-				angle = findBeaconAngle(0, 18, 'K');
+				angle = findBeaconAngle(0, 18, beacon);
 			}
 			else if (cnt == 2) {
-				angle = findBeaconAngle(6, 12, 'K');
+				angle = findBeaconAngle(6, 12, beacon);
 			}
 			
 			System.out.println(angle);
@@ -148,16 +145,26 @@ public class FindBeacon {
 				int tmp = (int) angle * 2;
 				
 				if (tmp % 2 == 0) {
-					turnLeft(timeTurn[18 - tmp / 2]);;
+					turnLeft(timeTurn[tmp / 2]);;
 				}
 				else {
-					turnLeft((timeTurn[18 - tmp / 2] + timeTurn[17 - tmp / 2]) / 2);
+					turnLeft((timeTurn[tmp / 2] + timeTurn[tmp / 2 + 1]) / 2);
 				}
 			}
 			robot.sleep(300);
 			runForward(1800);
-			
 		}
+
+	}
+
+	public static void main(String[] args) {
+
+		robot.setPort("COM4");
+		robot.connect();
+		
+		moveTowardBeacon('K');
+				
+		
 		robot.close();
 	}
 
