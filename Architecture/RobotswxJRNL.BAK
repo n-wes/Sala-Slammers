@@ -1,5 +1,5 @@
 ' ******************************************************************************
-' swxJRNL.swj - journal recorded on 03/06/19 by USER
+' swxJRNL.swj - journal recorded on 03/23/19 by USER
 ' *****************************************************************************
 Dim swApp As Object
 
@@ -25,1357 +25,1573 @@ myModelView.FrameState = swWindowState_e.swWindowMaximized
 Set myModelView = Part.ActiveView
 myModelView.FrameState = swWindowState_e.swWindowMaximized
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.310219526290893555, -2.246258020401000977, 1, 0
+myModelView.ManipulateBy -0.6676734685897827148, -1.530395269393920898, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.445862770080566406, -4.779990673065185547, 1, 0
+myModelView.ManipulateBy -25.91248893737792969, -27.40157508850097656, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -38.755645751953125, -39.95572662353515625, 1, 0
+myModelView.ManipulateBy -35.27386474609375, -31.49455833435058594, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -8.003142356872558594, -12.49638652801513672, 1, 0
+myModelView.ManipulateBy -31.00177192687988281, -30.46897315979003906, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.693729877471923828, -8.638419151306152344, 1, 0
+myModelView.ManipulateBy -17.72938919067382813, -9.402845382690429688, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -7.237874031066894531, -8.4856719970703125, 1, 0
+myModelView.ManipulateBy -5.44586944580078125, -1.33395087718963623, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -9.055736541748046875, -10.67947769165039063, 1, 0
+myModelView.ManipulateBy -4.199281692504882813, 0.5083801746368408203, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -14.93289089202880859, -11.17954635620117188, 1, 0
+myModelView.ManipulateBy -4.511849403381347656, 3.838887929916381836, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -13.31129360198974609, -10.02379226684570313, 1, 0
+myModelView.ManipulateBy -6.419450759887695313, 6.234589099884033203, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -13.27236366271972656, -11.45828056335449219, 1, 0
+myModelView.ManipulateBy -4.969718456268310547, 4.120247840881347656, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -16.24373245239257813, -11.14797019958496094, 1, 0
+myModelView.ManipulateBy -6.266280174255371094, 10.10881900787353516, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -42.84449005126953125, -10.09668827056884766, 1, 0
+myModelView.ManipulateBy -6.756669521331787109, 7.777628421783447266, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -35.22826385498046875, -12.09007072448730469, 1, 0
+myModelView.ManipulateBy -5.160754203796386719, 1.521761655807495117, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -18.64562797546386719, -9.160843849182128906, 1, 0
+myModelView.ManipulateBy -1.60352635383605957, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.4445602297782897949, 0, 1, 0
+myModelView.ManipulateBy -0.367188185453414917, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
+myModelView.ManipulateBy 4.189784526824951172, -2.929212570190429688, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.1016421616077423096, -1.694379568099975586, 1, 0
+myModelView.ManipulateBy 10.00260448455810547, -21.62112045288085938, 1.007599234580993652, -0.1892191022634506226
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -16.55569267272949219, -77.92496490478515625, 1, 0
+myModelView.ManipulateBy 5.418077468872070313, -11.11625766754150391, 1.011867403984069824, -0.1009401232004165649
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -21.54150390625, -33.34877395629882813, 1, 0
+myModelView.ManipulateBy 0.1389250606298446655, -3.557202339172363281, 0.9954560399055480957, -0.02950650453567504883
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -23.82019424438476563, -41.24132156372070313, 1, 0
+myModelView.ManipulateBy 0, -0.6947661042213439941, 0.9986134171485900879, -0.005461454391479492188
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -15.65836715698242188, -25.51179885864257813, 1, 0
+myModelView.ManipulateBy -0.168161734938621521, -5.113865375518798828, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -6.682628154754638672, -15.00694751739501953, 1, 0
+myModelView.ManipulateBy -15.73806667327880859, -39.676177978515625, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -9.577852249145507813, -28.27671051025390625, 1, 0
+myModelView.ManipulateBy -17.76861000061035156, -31.57224655151367188, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -31.06363868713378906, -52.96895599365234375, 1, 0
+myModelView.ManipulateBy -14.28403377532958984, -21.69081497192382813, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
+myModelView.ManipulateBy -8.802042961120605469, -7.336730003356933594, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -10.79316139221191406, -18.75035285949707031, 1, 0
+myModelView.ManipulateBy -1.895323276519775391, -4.017851352691650391, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -30.96887969970703125, -53.80051422119140625, 1, 0
+myModelView.ManipulateBy -0.8623800873756408691, -2.841227054595947266, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -24.56482887268066406, -42.67511367797851563, 1, 0
+myModelView.ManipulateBy -0.7334402203559875488, -4.339750766754150391, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -18.04324531555175781, -31.34551048278808594, 1, 0
+myModelView.ManipulateBy 0.5232889652252197266, -7.124798774719238281, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -10.9053192138671875, -18.94521331787109375, 1, 0
+myModelView.ManipulateBy 5.983763217926025391, -21.28261184692382813, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
+myModelView.ManipulateBy 8.311219215393066406, -20.58979988098144531, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 68.40670013427734375, 13.11718368530273438, 0.9882794618606567383, -0.4603151679039001465
+myModelView.ManipulateBy 8.44832611083984375, -21.24364089965820313, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 7.085178375244140625, -67.94812774658203125, 0.9768140912055969238, -0.5006612539291381836
+myModelView.ManipulateBy 6.831165313720703125, -16.47643280029296875, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.5557002425193786621, -2.112088918685913086, 1, 0
+myModelView.ManipulateBy 10.39086246490478516, -22.564971923828125, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.3334201574325561523, -1.250578999519348145, 0.9940467476844787598, 0.008601129055023193359
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -9.55804443359375, -8.837424278259277344, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -34.28670501708984375, -49.68967056274414063, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -14.78162670135498047, -19.78693771362304688, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -14.94833755493164063, -28.23529434204101563, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -13.22566604614257813, -34.0157470703125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.834852695465087891, -17.00787353515625, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.167231082916259766, -10.44928169250488281, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.9425129890441894531, -17.83273124694824219, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.688548803329467773, -27.01826095581054688, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.713038325309753418, -7.654477119445800781, 1, 0
+myModelView.ManipulateBy 2.992465019226074219, -6.544588088989257813, 1, 0
 Set myModelView = Part.ActiveView
 myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.766634345054626465, -5.060312747955322266, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.387421607971191406, -1.400610923767089844, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -35.78709793090820313, -34.84946823120117188, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -12.94781589508056641, -3.835108757019042969, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -24.30102157592773438, -3.890690088272094727, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -30.56499481201171875, -7.324870109558105469, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -15.9857635498046875, -6.816618919372558594, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -10.11374473571777344, -3.940463542938232422, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -14.76902389526367188, -3.469407081604003906, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -16.24583625793457031, -3.167814493179321289, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -18.76744651794433594, -6.612646579742431641, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -17.88177299499511719, -10.64523410797119141, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -7.688878536224365234, -9.256340980529785156, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.158781528472900391, -6.570648670196533203, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.587430477142333984, -7.781136035919189453, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.9102630615234375, -5.888427734375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.300919294357299805, -4.405210494995117188, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.915605783462524414, -4.539645195007324219, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.928144216537475586, -8.366327285766601563, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.919515609741210938, -7.411865234375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.346742630004882813, -8.766998291015625, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -8.244768142700195313, -10.02692699432373047, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -24.86956787109375, -20.83082389831542969, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -14.77118110656738281, -10.04093074798583984, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -44.8819427490234375, -44.47135543823242188, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -11.42843151092529297, -14.31592750549316406, 1, 0
+myModelView.ManipulateBy 4.812071323394775391, -10.77302742004394531, 1, 0
 Set myModelView = Part.ActiveView
 myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.070938587188720703, -5.782163619995117188, 1, 0
+myModelView.ManipulateBy 4.334462165832519531, -8.615099906921386719, 0.8658626675605773926, -0.03007924556732177734
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -9.442454338073730469, -13.411590576171875, 1, 0
+myModelView.ManipulateBy -0.9169054627418518066, -5.141269207000732422, 0.9711887836456298828, -0.0148467719554901123
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
+myModelView.ManipulateBy 0, -0.8893005847930908203, 0.995086371898651123, -0.004248410463333129883
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 17.92133331298828125, -19.59240341186523438, 0.8892015814781188965, -0.2797555923461914063
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -15.50403785705566406, -31.23668289184570313, 0.8236559629440307617, -0.203604280948638916
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.361726045608520508, -12.50578975677490234, 0.9607043266296386719, -0.1032493114471435547
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.338721036911010742, -6.113941669464111328, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -18.52991294860839844, -43.40898513793945313, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -10.6730194091796875, -37.07271957397460938, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.172783970832824707, -25.84529876708984375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 3.538695573806762695, -6.336266994476318359, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 4.553513050079345703, -11.48328971862792969, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 4.532128334045410156, -16.69495773315429688, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.04759608209133148193, -32.71021270751953125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -21.19455337524414063, -29.56372261047363281, 1, 0
+myModelView.ManipulateBy 0.1667100787162780762, 0, 1, 0
+boolstatus = Part.Extension.SelectByRay(0.1431396749356110831, 0.1058284457422473679, -0.09085922856448647167, -0.3405140657987379416, -0.9385321716210255349, -0.05663509358635247098, 0.001401765494459104649, 1, False, 0, 0)
 Set myModelView = Part.ActiveView
 myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -7.757941246032714844, -10.0162200927734375, 1, 0
+myModelView.ManipulateBy 3.278631687164306641, 1.389532208442687988, 0.9040112495422363281, -0.01162695884704589844
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -23.59406852722167969, -30.46209907531738281, 1, 0
+myModelView.ManipulateBy 2.278371095657348633, -2.695692539215087891, 0.9802670478820800781, 0.003340244293212890625
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -12.30709266662597656, -15.88959980010986328, 1, 0
+myModelView.ManipulateBy 1.389250636100769043, -6.336266994476318359, 0.969800114631652832, 0.003754258155822753906
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
+myModelView.ManipulateBy 0.2222801148891448975, -0.9726725220680236816, 0.9958939552307128906, 0.0002149343490600585938
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 14.17035675048828125, 15.06252861022949219, 0.8638285398483276367, -0.3391761183738708496
+myModelView.ManipulateBy 0, 0.4168596565723419189, 0.9983006715774536133, -0.0002964735031127929688
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 4.306676864624023438, -18.258453369140625, 0.970312952995300293, -0.1751110553741455078
+myModelView.ManipulateBy -0.1769064515829086304, -1.592479825019836426, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0.1111625730991363525, 1, 0
+myModelView.ManipulateBy -3.52110600471496582, -42.4085235595703125, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.4054841399192810059, 0.2779064476490020752, 1, 0
+myModelView.ManipulateBy -3.533037185668945313, -25.45623016357421875, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.05557002872228622437, 0.7781380414962768555, 0.9991525411605834961, -0.00654888153076171875
+myModelView.ManipulateBy -2.849008560180664063, -9.004168510437011719, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
+myModelView.ManipulateBy -0.5787996053695678711, -2.301059961318969727, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.341573864221572876, -0.4644280672073364258, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.453066825866699219, -5.345404148101806641, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.856734991073608398, -1.749521493911743164, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.263356566429138184, -0.6106478571891784668, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.328914642333984375, -1.366646885871887207, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.972887992858886719, -1.788493633270263672, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.934642791748046875, -1.703710436820983887, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.505890846252441406, -1.308060050010681152, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -7.020708560943603516, -1.969824671745300293, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -17.09840583801269531, -12.56734180450439453, 1, 0
+myModelView.ManipulateBy 0.05381819978356361389, -1.732728958129882813, 1, 0
 Set myModelView = Part.ActiveView
 myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -6.428852558135986328, -5.804676055908203125, 1, 0
+myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -16.54828262329101563, -14.94158363342285156, 1, 0
+myModelView.ManipulateBy -5.001302242279052734, -63.1959228515625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.1229786574840545654, -0.8702487945556640625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.942693233489990234, -24.1290740966796875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.226370334625244141, -8.941792488098144531, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -2.957033634185791016, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -0.4754771292209625244, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -0.6452572345733642578, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -0.1489404886960983276, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -0.04770410433411598206, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.9021573662757873535, -1.582103371620178223, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.445081233978271484, -4.113015174865722656, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -26.67053985595703125, -38.48979949951171875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.948544740676879883, -19.81497383117675781, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.2144248783588409424, -1.778601169586181641, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -0.8474721312522888184, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -0.345157623291015625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -0.4644755721092224121, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -0.5480442643165588379, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.5190899968147277832, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.427383899688720703, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 6.668403148651123047, 0.2457802891731262207, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 4.001006126403808594, 2.505846261978149414, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.235804319381713867, 1.934869289398193359, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.05408930778503418, 1.931782245635986328, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.41649937629699707, 2.282510042190551758, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.217216014862060547, 2.335157155990600586, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.600918054580688477, 3.171956539154052734, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.438054323196411133, 2.435979604721069336, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.768774747848510742, 3.551784515380859375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.313283443450927734, 5.208812236785888672, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.382847070693969727, 4.320199966430664063, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.574540615081787109, 3.889502763748168945, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.1198883056640625, 0.4048403501510620117, 1, 0
+boolstatus = Part.Extension.SelectByID2("RD2@Annotations@sprint2_design.moAssembly_c", "DIMENSION", -0.009503834316652692848, 0.1390956659262779227, -0.282586118061726066, False, 0, Nothing, 0)
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 8.678737640380859375, 38.47107696533203125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 8.806033134460449219, 26.98567962646484375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.8844618797302246094, 2.275494575500488281, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 13.50205326080322266, 22.73090934753417969, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.651746511459350586, 12.77248764038085938, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.920479655265808105, 10.50855445861816406, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.927417993545532227, 30.51048851013183594, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -7.850938796997070313, 24.71578788757324219, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -5.518895149230957031, 21.98032379150390625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.880556106567382813, 19.23111343383789063, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.255183696746826172, 22.35401725769042969, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.615697383880615234, 24.78173637390136719, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.984831809997558594, 19.16164970397949219, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 4.808405399322509766, 1, 0
 Set myModelView = Part.ActiveView
 myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 34.1199951171875, 26.48448371887207031, 0.9266819953918457031, -0.2605127990245819092
+myModelView.ManipulateBy 0.2935894429683685303, 2.600053548812866211, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 23.25605583190917969, -16.00741004943847656, 1.037336468696594238, -0.2439852654933929443
+myModelView.ManipulateBy -0.4747821688652038574, 0.0777074471116065979, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 13.75358200073242188, -7.475683212280273438, 1.031098008155822754, -0.1356644034385681152
+myModelView.ManipulateBy -56.681427001953125, 7.726404666900634766, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 3.139706611633300781, -4.029643535614013672, 1.005520462989807129, -0.0524508357048034668
+myModelView.ManipulateBy -13.05895614624023438, 6.908389568328857422, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 11.64192104339599609, 3.890690088272094727, 0.9175097942352294922, -0.003408014774322509766
+myModelView.ManipulateBy -6.446123123168945313, 5.107626438140869141, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 6.668403148651123047, 1.556276082992553711, 1, 0
+myModelView.ManipulateBy -18.44246482849121094, 9.098174095153808594, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -7.675446987152099609, 4.844490528106689453, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -5.237665176391601563, 6.540930747985839844, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -5.831535816192626953, 4.669014930725097656, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -7.516619682312011719, 5.788334369659423828, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.648495197296142578, 3.52653813362121582, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -6.217846393585205078, 4.824682712554931641, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -6.415936946868896484, 4.682011127471923828, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -11.03286170959472656, 6.643490314483642578, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -10.48129940032958984, 3.71907496452331543, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -10.06662750244140625, 1.488237857818603516, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -10.98895931243896484, 0.8442696928977966309, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -9.400316238403320313, 0.6101525425910949707, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -7.121619224548339844, 0.2081109434366226196, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.709934234619140625, 0.02685433812439441681, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.246488809585571289, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.6568008065223693848, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.7313237786293029785, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.1735478043556213379, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.0831108391284942627, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.488085508346557617, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 10.14656352996826172, 0.1648508906364440918, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 13.31587314605712891, 0.3584355413913726807, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 13.86092281341552734, 0.7398309111595153809, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 11.17502975463867188, 2.209878683090209961, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 13.97434234619140625, 5.5225830078125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 26.92576789855957031, 13.64450645446777344, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 31.61990928649902344, 15.01264095306396484, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 15.04194164276123047, 6.920860767364501953, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 14.54187679290771484, 9.642484664916992188, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 10.58672428131103516, 7.974653244018554688, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 10.260467529296875, 7.498493671417236328, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 10.59091472625732422, 6.935163021087646484, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 13.72640323638916016, 6.106586933135986328, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 14.55031490325927734, 6.114145278930664063, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 16.11640548706054688, 8.331480979919433594, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 11.47057437896728516, 7.0576019287109375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 5.951426506042480469, 6.005330085754394531, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.546575069427490234, 4.703702449798583984, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.7008932232856750488, 1.126552343368530273, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.5432933568954467773, 0.5872808694839477539, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.4377428591251373291, 0.6970458030700683594, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.2864417433738708496, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.05047909915447235107, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.005582779645919799805, 0.3254816234111785889, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.4294840097427368164, 0.7212404608726501465, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.264082431793212891, 1.599088311195373535, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.450552701950073242, 2.14804840087890625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.112000226974487305, 2.738450288772583008, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.17599177360534668, 2.243741750717163086, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.46314549446105957, 2.67590785026550293, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 1.121192336082458496, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.4147842526435852051, 0.8871701955795288086, 1, 0
 Set myModelView = Part.ActiveView
 myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.861966252326965332, 0.4205946922302246094, 1, 0
+myModelView.ManipulateBy -0.6389204859733581543, -2.436378002166748047, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 6.028717041015625, 3.45046687126159668, 1, 0
+myModelView.ManipulateBy -19.54288101196289063, -46.0768890380859375, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.454805970191955566, 1.998263239860534668, 1, 0
+myModelView.ManipulateBy -5.685910224914550781, -19.56461334228515625, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.29682612419128418, 1.041192412376403809, 1, 0
+myModelView.ManipulateBy -0.734406888484954834, -6.447429180145263672, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.189182281494140625, 0.8796491622924804688, 1, 0
+myModelView.ManipulateBy 0, -4.618280887603759766, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.404380559921264648, 0.8087003231048583984, 1, 0
+myModelView.ManipulateBy -1.133916497230529785, -6.630972385406494141, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.962011337280273438, 0.6381704807281494141, 1, 0
+myModelView.ManipulateBy -3.024386167526245117, -10.23520088195800781, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.848357200622558594, 1.018458247184753418, 1, 0
+myModelView.ManipulateBy -3.175513029098510742, -11.54087257385253906, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.721900224685668945, 0.2549686431884765625, 1, 0
+myModelView.ManipulateBy -3.010346174240112305, -10.32829475402832031, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.475301504135131836, 0.9033688902854919434, 1, 0
+myModelView.ManipulateBy -1.475753188133239746, -9.562912940979003906, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.887097597122192383, 1.270492434501647949, 1, 0
+myModelView.ManipulateBy 0, -5.263979434967041016, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 6.895879268646240234, 9.120626449584960938, 1, 0
+myModelView.ManipulateBy 0, -3.947288990020751953, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 3.764245271682739258, 4.297304630279541016, 1, 0
+myModelView.ManipulateBy 0, -4.382820606231689453, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.230357885360717773, 4.218560218811035156, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 2.585398435592651367, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 1.086739063262939453, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0.8801478147506713867, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 1.745956063270568848, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 2.66369175910949707, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 2.828139066696166992, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.39770960807800293, 5.72187042236328125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.8610504865646362305, 5.490829944610595703, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.021262049674987793, 5.375786304473876953, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.68302154541015625, 13.78417205810546875, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.360190391540527344, 11.4965057373046875, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 8.329987525939941406, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.122701764106750488, 6.131371974945068359, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.090327024459838867, 6.329767227172851563, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.519452214241027832, 6.043881416320800781, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.678178191184997559, 7.177218437194824219, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.437284231185913086, 4.883798599243164063, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.808811187744140625, 2.874350547790527344, 1, 0
+myModelView.ManipulateBy -0.2518016695976257324, -3.734164237976074219, 1, 0
 Set myModelView = Part.ActiveView
 myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.1861311048269271851, 0.9839081764221191406, 1, 0
+myModelView.ManipulateBy -0.2635879218578338623, -2.436593532562255859, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.2949202656745910645, -2.092299461364746094, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -8.265952110290527344, -40.58301162719726563, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.483763217926025391, -21.61244583129882813, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.266573667526245117, -4.001852512359619141, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.688448667526245117, -5.607624053955078125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.451200485229492188, -6.915263652801513672, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.369914770126342773, -7.69159698486328125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.244599580764770508, -8.847255706787109375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.329980254173278809, -9.497167587280273438, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.22984468936920166, -7.159883975982666016, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -5.090898513793945313, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.424927473068237305, -1.392218947410583496, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 9.42128753662109375, -4.561749935150146484, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 19.64400672912597656, -8.544849395751953125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 7.954349994659423828, -4.291130542755126953, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 8.841231346130371094, -4.566689491271972656, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 8.074536323547363281, -4.337538719177246094, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 13.18384552001953125, -7.694195270538330078, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 7.697384834289550781, -4.781741142272949219, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 7.561651706695556641, -5.068020343780517578, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.9830915927886962891, -4.700119972229003906, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.852010846138000488, -3.839532375335693359, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -8.493982315063476563, -11.59648704528808594, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -8.279205322265625, -13.34406852722167969, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.568812012672424316, -4.650061607360839844, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.4931229352951049805, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.184746026992797852, -0.1419249773025512695, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.12319636344909668, -1.644234538078308105, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -1.946349263191223145, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.7397149205207824707, -3.596866369247436523, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.025562047958374023, -6.951555252075195313, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.28005671501159668, -4.705941200256347656, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.646292567253112793, -0.9779103994369506836, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.029178380966186523, -1.934123039245605469, 1, 0
 Set myModelView = Part.ActiveView
 myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 8.891203880310058594, 1.611857295036315918, 1.973610043525695801, -0.216954648494720459
+myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.2778501212596893311, -16.67438697814941406, 1.500213027000427246, -0.06191706657409667969
+myModelView.ManipulateBy 8.335503578186035156, -11.11625766754150391, 0.9972680807113647461, -0.09027808904647827148
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.861595869064331055, -7.559055328369140625, 1.087364912033081055, -0.003563702106475830078
+myModelView.ManipulateBy 6.251627922058105469, -10.67160701751708984, 0.9953033328056335449, -0.0805523991584777832
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.278110623359680176, -3.084761381149291992, 1.016341209411621094, -0.003005057573318481445
+myModelView.ManipulateBy 1.583745718002319336, -3.056970834732055664, 0.9986781477928161621, -0.02248477935791015625
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -10.36380958557128906, -5.669291496276855469, 0.9232854247093200684, 0.02536946535110473633
+myModelView.ManipulateBy 0.2222801148891448975, 0.6113941669464111328, 1.003270506858825684, 0.002722829580307006836
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -15.61517715454101563, -5.36359405517578125, 0.8565648198127746582, 0.05595278739929199219
+myModelView.ManipulateBy 0, -1.151479840278625488, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.640357494354248047, 2.362204790115356445, 0.9460717439651489258, 0.02971649169921875
+myModelView.ManipulateBy 0.4820676147937774658, -9.62273406982421875, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -6.612833023071289063, 0.1945345103740692139, 0.9496160149574279785, 0.03745102882385253906
+myModelView.ManipulateBy 0.163738936185836792, -5.558386325836181641, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.111921548843383789, 0.3612783551216125488, 0.9712634682655334473, 0.01501968502998352051
+myModelView.ManipulateBy 1.255246996879577637, 48.63362503051757813, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.3334201574325561523, 1.445113420486450195, 0.9860048890113830566, 0.001303613185882568359
+myModelView.ManipulateBy 3.898130178451538086, 28.37653350830078125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.502146244049072266, 62.30662155151367188, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 4.791100502014160156, 61.97313690185546875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 12.78825187683105469, 55.24779891967773438, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 7.662752151489257813, 44.689849853515625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 5.977946758270263672, 22.43030548095703125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.34169459342956543, 19.5775299072265625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.160150483250617981, 28.53727340698242188, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.3978154659271240234, 7.077414035797119141, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.6061555743217468262, 0.1111625730991363525, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+boolstatus = Part.Extension.SelectByRay(0.1456603519595205398, 0.0719170965702318199, 0.1018596364674237975, -0.961809318292398574, -0.1825378156499683213, -0.2039675981710083463, 0.009703771123739601823, 1, False, 0, 0)
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.988074779510498047, -7.172128200531005859, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -64.5167999267578125, -146.067626953125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.178247451782226563, -16.00391006469726563, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.422930479049682617, -9.826598167419433594, 1, 0
 Set myModelView = Part.ActiveView
 myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.09689734876155853271, 0.05650063231587409973, 1, 0
+myModelView.ManipulateBy -1.226061224937438965, -6.213284969329833984, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -13.71743202209472656, 10.36128902435302734, 1, 0
+myModelView.ManipulateBy -2.021909236907958984, -3.808907508850097656, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -9.77217864990234375, 7.831552982330322266, 1, 0
+myModelView.ManipulateBy -24.56195259094238281, -49.46734619140625, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.672165870666503906, 7.637696266174316406, 1, 0
+myModelView.ManipulateBy -3.167491436004638672, -15.45159816741943359, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.173943281173706055, 0.6485071778297424316, 1, 0
+myModelView.ManipulateBy -1.278110623359680176, -12.89485836029052734, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.262721776962280273, 0.2648151218891143799, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.815431118011474609, 0.2079141885042190552, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.500925302505493164, 1.144900202751159668, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -6.158627033233642578, 1.772893548011779785, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -7.429428577423095703, 2.086252212524414063, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -8.854007720947265625, 2.122812271118164063, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -9.302722930908203125, 2.100754976272583008, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -12.92343044281005859, 2.398198366165161133, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -11.25116634368896484, 1.172739982604980469, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -9.892937660217285156, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -7.021637916564941406, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.384267568588256836, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.996107578277587891, -0.8033198714256286621, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.3133275806903839111, -0.577958524227142334, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 32.72834396362304688, -12.531280517578125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 23.29264068603515625, -8.729613304138183594, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 20.1947021484375, -7.094249248504638672, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 17.58514785766601563, -6.354951381683349609, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 17.81977462768554688, -5.606503009796142578, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 17.50233078002929688, -5.280874252319335938, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 17.39056205749511719, -4.095306873321533203, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 21.37381172180175781, -4.976325511932373047, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 16.62772178649902344, -3.749482631683349609, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 14.00435256958007813, -2.757737874984741211, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 6.980123043060302734, -1.421878814697265625, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 10.67008876800537109, -2.859410285949707031, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.466136932373046875, -1.946155786514282227, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.3542385697364807129, -0.4400027096271514893, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.1542217433452606201, -0.2788257896900177002, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.1897195428609848022, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.83540499210357666, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -12.78087520599365234, 0.02609104476869106293, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -24.56397438049316406, 4.055844783782958984, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -19.23523712158203125, 5.281343460083007813, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -9.976536750793457031, 4.356395244598388672, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.292197227478027344, 3.773985147476196289, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.045494556427001953, 2.863917827606201172, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.052733421325683594, 3.131053447723388672, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.409389972686767578, 2.836918354034423828, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.716366291046142578, 1.24113774299621582, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.342014312744140625, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.580101370811462402, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.865751981735229492, -0.2312874794006347656, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.103871822357177734, -0.9800153970718383789, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.096868038177490234, -1.374226927757263184, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.9835215210914611816, -0.6417710781097412109, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.2454252094030380249, -0.2620931267738342285, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.04113417863845825195, 0, 1, 0
+myModelView.ManipulateBy 1.027319669723510742, -3.890690088272094727, 1, 0
 Set myModelView = Part.ActiveView
 myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.2249830961227416992, -1.125144600868225098, 1, 0
+myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.760000348091125488, -16.84112930297851563, 1, 0
+myModelView.ManipulateBy -1.166970610618591309, -3.195924043655395508, 0.9556003212928771973, 0.2268981337547302246
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -3.056970834732055664, 1, 0
+myModelView.ManipulateBy 4.917947292327880859, 1.056044459342956543, 0.9785817265510559082, 0.06967675685882568359
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -2.358500003814697266, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -2.684437990188598633, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.07027951627969741821, -5.293118476867675781, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.710932612419128418, -5.408258914947509766, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.365449428558349609, -6.247867584228515625, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.008689070120453834534, -7.136397838592529297, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.3706940710544586182, -6.530889511108398438, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.744612812995910645, -11.64419174194335938, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.735373020172119141, -9.690080642700195313, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.968139171600341797, -8.656847000122070313, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.574071645736694336, -10.24134731292724609, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -5.315320014953613281, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -2.714886665344238281, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.2567739486694335938, -2.979237079620361328, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.48265540599822998, -2.236088275909423828, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.9440341591835021973, -3.522518396377563477, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -4.286992073059082031, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.319190263748168945, -4.947725296020507813, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.593110322952270508, -6.259829044342041016, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.026376008987426758, -6.657487392425537109, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -5.435621738433837891, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -5.491949558258056641, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.4163715839385986328, -5.583884239196777344, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.4261906445026397705, -5.924740314483642578, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.7690957784652709961, -6.277632236480712891, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.401523590087890625, -9.954464912414550781, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.9768372178077697754, -7.168168067932128906, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -5.852182865142822266, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.9492540359497070313, -2.269130706787109375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.144115447998046875, -3.084815740585327148, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.9659124612808227539, -5.26357269287109375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -4.5413818359375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -4.175245761871337891, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -2.139513254165649414, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -1.422452211380004883, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.6719126701354980469, -1.421556591987609863, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.134769558906555176, -2.110555410385131836, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.027531623840332031, -2.6953125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.787845611572265625, -11.94148159027099609, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.148460626602172852, -6.0316009521484375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.044091701507568359, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.2375462651252746582, 0, 1, 0
+myModelView.ManipulateBy 3.056351423263549805, 0.9448819160461425781, 1, 0
 Set myModelView = Part.ActiveView
 myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.056091666221618652, -3.35905146598815918, 1, 0
+myModelView.ManipulateBy -1.495796680450439453, -2.779064416885375977, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -14.22592735290527344, -35.68318557739257813, 1, 0
+myModelView.ManipulateBy -4.420133590698242188, -21.13861846923828125, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.635089755058288574, -8.1148681640625, 1, 0
+myModelView.ManipulateBy -3.161243915557861328, -12.87713050842285156, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.290159702301025391, -10.24253463745117188, 1, 0
+myModelView.ManipulateBy -0.08892086148262023926, -1.33395087718963623, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.4831631481647491455, -14.20176506042480469, 1, 0
+myModelView.ManipulateBy 0, -0.8333665132522583008, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.03803141415119171143, -8.686415672302246094, 1, 0
+myModelView.ManipulateBy 0, -0.03049100376665592194, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -2.71921539306640625, 1, 0
+myModelView.ManipulateBy 3.02824091911315918, 20.57406425476074219, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -0.2835039198398590088, 1, 0
+myModelView.ManipulateBy 12.23176097869873047, 42.96433639526367188, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.3734526932239532471, -0.4147156476974487305, 1, 0
+myModelView.ManipulateBy 16.99942779541015625, 42.59356689453125, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.278358221054077148, -0.865289151668548584, 1, 0
+myModelView.ManipulateBy 19.21071434020996094, 37.3254547119140625, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.9538769721984863281, -0.5048113465309143066, 1, 0
+myModelView.ManipulateBy 29.08863067626953125, 33.48795700073242188, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.2314343750476837158, 14.56229782104492188, 1, 0
+myModelView.ManipulateBy 37.11858367919921875, 7.39231109619140625, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.196349143981933594, 26.13647651672363281, 1, 0
+myModelView.ManipulateBy 52.1246795654296875, -17.29388809204101563, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 27.6025390625, 43.91566085815429688, 1, 0
+myModelView.ManipulateBy 37.86972427368164063, -9.924048423767089844, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 27.8070068359375, 27.39367485046386719, 1, 0
+myModelView.ManipulateBy 34.21675491333007813, -8.635453224182128906, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 3.632151126861572266, 9.448819160461425781, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -6.945706844329833984, 17.417694091796875, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.740593910217285156, 15.20852184295654297, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.7955529093742370605, 11.95984172821044922, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.1215763911604881287, 19.33561134338378906, 1, 0
+myModelView.ManipulateBy 2.778501272201538086, -1.019420027732849121, 1, 0
 Set myModelView = Part.ActiveView
 myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.732967376708984375, 6.428268909454345703, 1, 0
+myModelView.ManipulateBy 6.258031368255615234, -1.969471931457519531, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 5.593952178955078125, 13.15765571594238281, 1, 0
+myModelView.ManipulateBy -7.848764419555664063, -1.408048868179321289, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -87.3560791015625, -29.17452430725097656, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -57.403839111328125, -27.27142143249511719, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -26.72918319702148438, -24.14857673645019531, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -14.28149700164794922, -16.299224853515625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -20.6120147705078125, -21.26220893859863281, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -13.56356334686279297, -24.41811180114746094, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.377127408981323242, -25.722412109375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 14.00537014007568359, -14.59514904022216797, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 9.171265602111816406, -14.06388473510742188, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 5.503413200378417969, -15.14538478851318359, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.733407735824584961, -13.10543251037597656, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.397499322891235352, -6.721346378326416016, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.8869497179985046387, -3.754884958267211914, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.01515104901045560837, -0.2068540602922439575, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.1667100787162780762, -3.446039915084838867, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.074244022369384766, -22.26606941223144531, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -4.613041877746582031, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -2.198218822479248047, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -1.461587071418762207, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 25.82604026794433594, 47.46641921997070313, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 88.745330810546875, 62.64011001586914063, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 70.18494415283203125, 34.70751571655273438, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 50.17535400390625, 8.059287071228027344, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 5.779282569885253906, 0.6669754385948181152, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.7224103212356567383, -1.311275959014892578, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 4.431764125823974609, -14.25098228454589844, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 8.421599388122558594, -20.75779914855957031, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.080299854278564453, -18.72596168518066406, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -20.54834747314453125, -41.741546630859375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -28.86464118957519531, -41.21625137329101563, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -26.21053314208984375, -32.63073348999023438, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -15.33762550354003906, -7.948123931884765625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.278110623359680176, -1.33395087718963623, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.1111400574445724487, -0.5945677757263183594, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.8359110355377197266, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 20.48043060302734375, 1.433145046234130859, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 26.45937919616699219, 5.301635265350341797, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 21.13112640380859375, 1.636262416839599609, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.555960774421691895, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.007434661965817213058, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.386678457260131836, 0.6390592455863952637, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 6.455267429351806641, 1.819072723388671875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.581504523754119873, 0.3497068583965301514, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -9.682344436645507813, 6.261267662048339844, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -5.391798496246337891, 17.59086799621582031, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -10.97166156768798828, 15.33723640441894531, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -6.517674922943115234, 3.806676864624023438, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.662436485290527344, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.283100515604019165, 0.7647757530212402344, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.157731533050537109, 2.856321573257446289, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.769235134124755859, 2.415671348571777344, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 10.07324790954589844, 3.533518075942993164, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 12.40600872039794922, 8.357532501220703125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 8.304625511169433594, 5.10352325439453125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.6872449517250061035, 0.5639783740043640137, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.2046974003314971924, 0.4819295406341552734, 1, 0
 Set myModelView = Part.ActiveView
 myModelView.ManipulateBy 0, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -82.2436370849609375, 121.5006942749023438, 0.9359377026557922363, -0.09079265594482421875
+myModelView.ManipulateBy -0.03795113414525985718, -7.781558036804199219, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -86.88373565673828125, 126.5030136108398438, 0.9569084644317626953, 0.02203565835952758789
+myModelView.ManipulateBy 1.111400485038757324, -13.67299652099609375, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -36.842926025390625, 51.32931900024414063, 0.9796354174613952637, 0.006431251764297485352
+myModelView.ManipulateBy 19.22355461120605469, -48.8003692626953125, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -11.86420059204101563, 13.33950901031494141, 0.9914975762367248535, -0.009553343057632446289
+myModelView.ManipulateBy 8.0670623779296875, -12.50578975677490234, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.5557002425193786621, -0.3334877192974090576, 1.007234454154968262, -0.001902818679809570313
+myModelView.ManipulateBy 5.247641563415527344, -3.056970834732055664, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.316520214080810547, -1.684101343154907227, 1, 0
+myModelView.ManipulateBy 0, -0.9112631082534790039, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -24.00625228881835938, -30.68087005615234375, 1, 0
+myModelView.ManipulateBy 0, -0.3389630913734436035, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -8.946772575378417969, -4.835572242736816406, 1, 0
+myModelView.ManipulateBy -4.649197101593017578, -3.694317102432250977, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -6.612833023071289063, -4.001852512359619141, 1, 0
+myModelView.ManipulateBy -7.602550506591796875, -4.375845909118652344, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.445081233978271484, -1.500694751739501953, 1, 0
+myModelView.ManipulateBy -15.11861038208007813, -2.99087977409362793, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.53050994873046875, -0.003039601724594831467, 1, 0
+myModelView.ManipulateBy -9.913326263427734375, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.294352293014526367, -2.923798322677612305, 1, 0
+myModelView.ManipulateBy -1.301023364067077637, 0, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.423769474029541016, -4.281614780426025391, 1, 0
+myModelView.ManipulateBy -1.893353819847106934, 3.22404026985168457, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.382293462753295898, -3.152080535888671875, 1, 0
+myModelView.ManipulateBy -4.371701240539550781, 11.68887710571289063, 1, 0
 Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.3245914876461029053, 0, 1, 0
+myModelView.ManipulateBy -3.745477914810180664, 5.866723060607910156, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.365199565887451172, 8.205112457275390625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 6.610563278198242188, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 4.979166030883789063, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 1.496871590614318848, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.01078738179057836533, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.07971402257680892944, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.004380413331091403961, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.3495647609233856201, 0.2492575198411941528, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.5950052738189697266, 0.7064156532287597656, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.5921850800514221191, 0.7672008872032165527, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.6701404452323913574, 0.8771693110466003418, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.9167901277542114258, 1.281287074089050293, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.8179535269737243652, 2.639100074768066406, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.5356348156929016113, 2.876667499542236328, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 2.298803806304931641, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.6882832050323486328, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.3875419199466705322, 0.6522557735443115234, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.139954805374145508, 2.288959264755249023, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -22.72813987731933594, -34.404815673828125, 1, 0
 Set myModelView = Part.ActiveView
 myModelView.ManipulateBy 0, 0, 1, 0
-dblDimXPertTextPos(0) = 0.283429
-dblDimXPertTextPos(1) = 0.104947
-dblDimXPertTextPos(2) = -0.095126
-varDimXPertTextPos = dblDimXPertTextPos
-swDimXPertDimOpt.TextPosition = varDimXPertTextPos
-boolstatus = swDimXPertPart.InsertLocationDimension(swDimXPertDimOpt)
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -10.46282100677490234, -13.92303848266601563, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -28.35189247131347656, -37.7283172607421875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -15.89707088470458984, -21.15447425842285156, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.620986223220825195, 1.487386345863342285, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 8.724493980407714844, 4.613246917724609375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 75.30046844482421875, 62.22845077514648438, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 26.00369453430175781, 14.24662590026855469, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 17.33784866333007813, 11.56567764282226563, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 6.129552841186523438, 4.074965953826904297, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 6.381287097930908203, 13.43789577484130859, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -7.057176113128662109, 9.639506340026855469, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.25417327880859375, 6.431145668029785156, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -7.488060951232910156, 4.709645748138427734, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.913266658782958984, 1.569696426391601563, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.321587085723876953, 0.3415887951850891113, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.745125293731689453, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.707203149795532227, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.891409158706665039, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.1569893956184387207, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.09275011718273162842, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -7.312417030334472656, -9.478468894958496094, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.450266361236572266, -6.591946125030517578, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.356156826019287109, -2.300856351852416992, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.847079277038574219, -3.170087337493896484, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.958798646926879883, -4.424140453338623047, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.438999176025390625, -13.94215106964111328, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -8.648662567138671875, -13.79597854614257813, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -36.01943206787109375, -23.87152862548828125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -21.32528495788574219, -17.48477554321289063, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.94495093822479248, -6.313032150268554688, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.00247955322265625, -4.615268707275390625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.372168540954589844, -5.699999332427978516, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -17.35793113708496094, -11.40538883209228516, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -23.47222709655761719, -16.31871414184570313, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -24.519927978515625, -17.61886215209960938, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -21.68726158142089844, -14.89834022521972656, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -8.225577354431152344, -12.50834465026855469, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.111400485038757324, -1.20304107666015625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.09849569946527481079, -0.1207597106695175171, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.4475042223930358887, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.2427186369895935059, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 5.946006298065185547, -2.21053004264831543, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 18.54142951965332031, -18.77913665771484375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 9.546349525451660156, -8.738535881042480469, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 6.911420345306396484, -4.068431854248046875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.682786941528320313, -1.451036691665649414, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.140209794044494629, -1.078129053115844727, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.6222323775291442871, -0.8281761407852172852, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.784210324287414551, -2.159053564071655273, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.427657127380371094, -3.736233711242675781, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 5.612158775329589844, -11.01178455352783203, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 5.921556949615478516, -11.07695293426513672, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 5.630764007568359375, -10.56835556030273438, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.4774022996425628662, -3.044391870498657227, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -0.2743240594863891602, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.8600686192512512207, -0.03395126387476921082, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.6589053869247436523, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.5054399967193603516, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.1731351613998413086, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.3211726546287536621, 1.133133649826049805, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.250518321990966797, 3.552889108657836914, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.778761863708496094, 9.059749603271484375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -38.96424102783203125, 114.775360107421875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.713799476623535156, 51.91292190551757813, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.956060409545898438, 35.23853683471679688, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.194202780723571777, 36.29458236694335938, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 4.669316768646240234, 27.48823165893554688, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.01584614068269729614, 28.33619880676269531, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -6.323488235473632813, 36.47237014770507813, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -14.64002323150634766, 30.67216110229492188, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -14.47350883483886719, 39.68503952026367188, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -18.12013053894042969, 50.2454833984375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -11.27701187133789063, 22.76520538330078125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -9.024737358093261719, 10.61602592468261719, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.380527138710021973, 4.278131008148193359, 1, 0
+boolstatus = Part.Extension.SelectByID2("RD2@Annotations@sprint2_design.moAssembly_c", "DIMENSION", 0.0558340170916550721, 0.05675852694718735991, -0.2958184636971687986, False, 0, Nothing, 0)
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.1667100787162780762, 16.39648056030273438, 1.413006305694580078, -0.02580378204584121704
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.8057653903961181641, 0.2779064476490020752, 1.076658010482788086, 0.01337792351841926575
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.667100787162780762, 0.2779064476490020752, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.05557002872228622437, 0.9170912504196166992, 1.019038200378417969, -0.002624835819005966187
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.2778501212596893311, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.750976800918579102, 0.05558128654956817627, 1.027857422828674316, -0.002555310726165771484
+boolstatus = Part.Extension.SelectByRay(0.1429074687060847282, 0.09340779869782522837, 0.02444934434775092313, -0.8956128017373412575, -0.4404215689487279706, -0.06250240770506984567, 0.006512113161281284264, 1, False, 0, 0)
+boolstatus = Part.Extension.SelectByRay(0.0941320424410605483, 0.1045473559247795947, 0.05509548951198439681, -0.8956128017373412575, -0.4404215689487279706, -0.06250240770506984567, 0.006512113161281284264, 1, False, 0, 0)
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.114272594451904297, 6.601260185241699219, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.055830478668212891, 10.56044483184814453, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.608836650848388672, 104.8818817138671875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.893962383270263672, 16.06299209594726563, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.7432978153228759766, 5.314200878143310547, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.941376566886901855, 5.579310894012451172, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.60551905632019043, 8.007925033569335938, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.7630195021629333496, 2.112631797790527344, 1, 0
+boolstatus = Part.Extension.SelectByID2("RD2@Annotations@sprint2_design.moAssembly_c", "DIMENSION", 0.02527886133014968506, 0.1165594272426229983, -0.2954767082921364585, False, 0, Nothing, 0)
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -8.741875648498535156, -8.893006324768066406, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.9861491918563842773, -1.500694751739501953, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -7.848839282989501953, -13.95114421844482422, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -1.037264108657836914, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.9395248889923095703, -0.04443382099270820618, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+boolstatus = Part.Extension.SelectByRay(0.1446814035659258479, 0.07886528122035230126, 0.08053727256986142891, -0.9996503619405677776, 0.01212917340069615164, 0.02349546817383795297, 0.001107059237417818342, 2, False, 0, 0)
+boolstatus = Part.Extension.SelectByRay(0.1462613662060334718, 0.0762813141124354388, -0.1005085136105279275, -0.9996503619405677776, 0.01212917340069615164, 0.02349546817383795297, 0.006512113161281284264, 2, False, 0, 0)
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.056351423263549805, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -13.98746776580810547, 1.580148935317993164, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -12.24158477783203125, 14.99372768402099609, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.9301384091377258301, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.00587396230548620224, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 18.23431015014648438, 0.1058415770530700684, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 19.80627250671386719, 1.378413558006286621, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 23.99929046630859375, 1.861863017082214355, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 15.97992134094238281, 1.594913959503173828, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 7.113489151000976563, 0.3909857273101806641, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.843809723854064941, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.6260175108909606934, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.5600755810737609863, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.05560394376516342163, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.1236415654420852661, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.3123524487018585205, -0.0516865849494934082, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -5.466541767120361328, -1.32354128360748291, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -16.29218864440917969, -5.413097381591796875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.23941001296043396, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.008236804977059364319, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.347479701042175293, -0.3091191649436950684, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -39.84370803833007813, -25.34506797790527344, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -14.03772354125976563, -6.276580810546875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -5.440374851226806641, -1.767111063003540039, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.119099736213684082, -0.4253915548324584961, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.3412414789199829102, -0.1190635040402412415, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.06056943163275718689, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.5544423460960388184, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.786872386932373047, -1.325087785720825195, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -82.79933929443359375, -26.79018020629882813, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -65.2947845458984375, -8.081297874450683594, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -12.05869579315185547, -1.354770183563232422, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -125.8661117553710938, -1.636496424674987793, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -88.96761322021484375, 5.603390216827392578, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.555960774421691895, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.4154999256134033203, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.001021116157062351704, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 7.691564559936523438, -6.867891311645507813, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 19.96697807312011719, -23.95625114440917969, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 28.13254356384277344, -29.20666313171386719, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 32.45802688598632813, -25.98784065246582031, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 31.79929733276367188, -4.446503162384033203, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 6.455484390258789063, -0.2779064476490020752, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -6.606022834777832031, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -26.07113456726074219, 0.06223041564226150513, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -31.14976692199707031, 8.10223388671875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -16.97189521789550781, 6.486462593078613281, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.001041889190673828, 5.501265525817871094, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.787059307098388672, 11.77237701416015625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.2055928260087966919, 7.408906936645507813, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.320623636245727539, -2.098874807357788086, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 80.13198089599609375, -32.66352462768554688, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 79.74298858642578125, 2.774186134338378906, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 41.62195205688476563, -8.582691192626953125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 14.83719730377197266, -11.49845981597900391, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 7.835373878479003906, -8.033171653747558594, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.722944974899291992, -2.1568756103515625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.5557002425193786621, -0.01845472492277622223, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.5326834321022033691, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.3657636642456054688, 1.730890274047851563, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.74519193172454834, 0.6919164657592773438, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.703155279159545898, -1.495583176612854004, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -5.334722518920898438, -2.223251581192016602, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -50.40201568603515625, -12.83927631378173828, 0.881866753101348877, -0.0005388408899307250977
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.695406675338745117, -0.6947661042213439941, 0.9903323650360107422, 0.0005768984556198120117
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.028566360473632813, -4.2519683837890625, 0.9776497483253479004, 0.007485024631023406982
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.5557002425193786621, 0.7503473758697509766, 0.9967958927154541016, 0.0006009936332702636719
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -18.22290229797363281, 12.61925411224365234, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -39.84777069091796875, 34.88370132446289063, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -18.22696876525878906, 22.52946662902832031, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -8.502214431762695313, 10.67160701751708984, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -8.168793678283691406, 7.281148910522460938, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.723191738128662109, 4.804022312164306641, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.4020483195781707764, 1.79321587085723877, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.5329887270927429199, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.939062952995300293, 0.6049214601516723633, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 9.716547012329101563, 2.461568593978881836, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 9.335248947143554688, 5.131492137908935547, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 9.459630012512207031, 5.736270904541015625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 5.557986259460449219, 3.215335369110107422, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.549740314483642578, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.4106176197528839111, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 3.664741992950439453, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.2578457295894622803, 1.924841403961181641, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.646506309509277344, 1.494995474815368652, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.772481679916381836, 1.938139677047729492, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.162645339965820313, 2.174400806427001953, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.951293468475341797, 2.232750177383422852, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.519750714302062988, 2.115698575973510742, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.335769891738891602, 1.284313082695007324, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.5138463973999023438, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.117540307343006134, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.4572564959526062012, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+boolstatus = Part.Extension.SelectByRay(0.01725714485637352968, 0.08859705463659928171, -0.06134140256875753039, -0.0005811911149406245088, -0.02649428936498762072, 0.9996487957517541378, 0.001300760634647218439, 2, False, 0, 0)
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.725950479507446289, 5.733918666839599609, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.389771699905395508, 11.06067657470703125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -22.97909736633300781, 95.266326904296875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.027207136154174805, 14.67345333099365234, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -7.224310398101806641, 87.09587860107421875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 26.52331161499023438, 102.82537841796875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.252833008766174316, 1.169731020927429199, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -8.251128196716308594, -0.4935884773731231689, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -107.0834426879882813, -61.08383560180664063, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -56.01458740234375, -36.35016250610351563, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -54.12520599365234375, -34.07132339477539063, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -52.40251922607421875, -19.898101806640625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -10.22488498687744141, -8.837424278259277344, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.945472002029418945, -6.422515392303466797, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.166970610618591309, -10.05493450164794922, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 4.905954360961914063, -9.766416549682617188, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 11.30304622650146484, -8.586236953735351563, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 14.94084835052490234, -3.052859306335449219, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 31.08301925659179688, 11.53796100616455078, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 42.62010955810546875, 33.13409805297851563, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 19.34602165222167969, 19.04523468017578125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 5.112442493438720703, 17.55823135375976563, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.283662080764770508, 12.97282981872558594, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.573483943939208984, 13.03238105773925781, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -5.960102558135986328, 13.19807243347167969, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -5.632000446319580078, -2.892289638519287109, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.305895686149597168, 4.641037464141845703, 1.078122138977050781, 0.2295688390731811523
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 4.917947292327880859, 10.42149162292480469, 1.015276908874511719, 0.1190904378890991211
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 5.223582744598388672, 0.8337193131446838379, 1.004877090454101563, 0.02558475732803344727
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 8.752279281616210938, 2.501157999038696289, 1.002322077751159668, 0.03536432981491088867
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 28.3407135009765625, 7.058823585510253906, 1.019947409629821777, 0.1106637120246887207
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 33.28644561767578125, -11.94997692108154297, 1.045786619186401367, 0.1279838681221008301
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 4.640097141265869141, -7.281148910522460938, 1.002946376800537109, 0.04938864707946777344
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.957940340042114258, -1.397715449333190918, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -46.62325286865234375, -36.96155548095703125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -21.67230987548828125, -8.726262092590332031, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -16.10778427124023438, -2.667901754379272461, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -14.16198635101318359, 1.906858086585998535, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -12.31864452362060547, 3.839044332504272461, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -12.86761569976806641, 2.523015260696411133, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -14.30294609069824219, 4.515915393829345703, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -12.98228931427001953, 8.234643936157226563, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -13.41090869903564453, 10.5328369140625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -14.8247833251953125, 10.283599853515625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -6.686067104339599609, 6.573208332061767578, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.019506454467773438, 6.308637619018554688, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.538909912109375, 4.808694362640380859, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.694109797477722168, 1.517825603485107422, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.01375683769583702087, 0.2085053175687789917, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.001627509947866201401, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.5447382330894470215, 0.9695142507553100586, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.431023120880126953, 3.819771766662597656, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.358944892883300781, 4.409338951110839844, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.689228415489196777, 2.89482879638671875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.716156005859375, 1.850515365600585938, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.884130477905273438, 3.284730672836303711, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.532354354858398438, 2.76536250114440918, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.41734766960144043, 2.471216440200805664, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.684602141380310059, 2.494325637817382813, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.590803384780883789, 3.363790750503540039, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.219015836715698242, 3.764485597610473633, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.25473487377166748, 3.930815696716308594, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.264614343643188477, 4.092284202575683594, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.625070571899414063, 3.046376228332519531, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.959736168384552002, 2.821591615676879883, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 2.702891111373901367, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.514880180358886719, 2.778854131698608398, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.182965993881225586, 2.658192873001098633, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.3375716209411621094, 2.175323486328125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 1.032677531242370605, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.06658627092838287354, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+
+' New Document
+Dim swSheetWidth As Double
+swSheetWidth = 0
+Dim swSheetHeight As Double
+swSheetHeight = 0
+Set Part = swApp.NewDocument("C:\ProgramData\SolidWorks\SOLIDWORKS 2018\templates\Part.prtdot", 0, swSheetWidth, swSheetHeight)
+Dim swPart As PartDoc
+Set swPart = Part
+swApp.ActivateDoc2 "Part1", False, longstatus
+Set Part = swApp.ActiveDoc
+
+' Redraw
+Part.GraphicsRedraw2
+boolstatus = Part.Extension.SelectByID2("Top Plane", "PLANE", 0, 0, 0, False, 0, Nothing, 0)
+Part.ActivateSelectedFeature
+boolstatus = Part.Extension.SelectByID2("Top Plane", "PLANE", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("Front Plane", "PLANE", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("Front Plane", "PLANE", 0, 0, 0, False, 0, Nothing, 0)
+Part.ActivateSelectedFeature
+boolstatus = Part.Extension.SelectByID2("Top Plane", "PLANE", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("Top Plane", "PLANE", 0, 0, 0, False, 0, Nothing, 0)
+Part.SketchManager.InsertSketch True
 Part.ClearSelection2 True
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.655212759971618652, -0.239692196249961853, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 82.577056884765625, -17.30738258361816406, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 59.34878921508789063, -4.202575206756591797, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 58.4040985107421875, -6.120280265808105469, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 41.62195205688476563, -8.637347221374511719, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 32.89745712280273438, -6.742765903472900391, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 13.83693695068359375, -3.239001035690307617, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 11.56529521942138672, -0.1691694408655166626, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 6.805591583251953125, -0.4235155582427978516, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 4.107297897338867188, -0.8581888079643249512, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.934496879577636719, 3.275209903717041016, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -19.84290313720703125, 19.00880050659179688, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.6712427735328674316, -3.223714590072631836, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -38.34331512451171875, -7.836961746215820313, 0.9371327757835388184, 0.2284318208694458008
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.500651121139526367, -20.98193550109863281, 0.9891794919967651367, 0.1493959426879882813
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 8.529995918273925781, -10.69939804077148438, 1.017636299133300781, 0.08766984939575195313
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 7.112963676452636719, -18.953216552734375, 1.033050656318664551, 0.07718741893768310547
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 12.89224624633789063, -3.195924043655395508, 1.018242239952087402, 0.04423570632934570313
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -3.890690088272094727, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.955556154251098633, -27.45714950561523438, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.452509760856628418, -12.28346443176269531, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.8126535415649414063, -12.34386348724365234, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -14.01318740844726563, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -18.04178619384765625, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.03103047050535678864, -15.94888496398925781, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.5167306065559387207, -19.87268638610839844, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.334679365158081055, -30.88977622985839844, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.4095983207225799561, -27.29356193542480469, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.8002699613571166992, -18.55782699584960938, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.7783187031745910645, -2.667901754379272461, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.239807844161987305, -1.808617234230041504, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.637000203132629395, -0.5566542148590087891, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.514325618743896484, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.937258243560791016, 0.6853216290473937988, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.694955348968505859, 7.895961761474609375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.673216342926025391, 9.203913688659667969, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.420189380645751953, 7.848794460296630859, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.248517036437988281, 4.069673538208007813, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.294105291366577148, 2.696832418441772461, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.426525712013244629, 1.20370936393737793, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0.09756578505039215088, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -22.06130027770996094, -44.4372406005859375, 0.9900830984115600586, 0.220718681812286377
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 6.029347896575927734, -41.49143218994140625, 1.078353404998779297, 0.1140376925468444824
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.363549232482910156, -35.0717926025390625, 1.041516900062561035, 0.08713206648826599121
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.584006309509277344, -3.890690088272094727, 1.002803206443786621, 0.01045984029769897461
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.2871445417404174805, -2.08563995361328125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.336742401123046875, -35.90550994873046875, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 8.147156715393066406, -19.85747909545898438, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.446748733520507813, -14.82524394989013672, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.137300491333007813, -12.33043575286865234, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.913989067077636719, -12.25058555603027344, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.228485107421875, -10.34265899658203125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.529845237731933594, -7.318099021911621094, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.058014750480651855, -1.410782217979431152, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -8.635318756103515625, -4.038029670715332031, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -6.819162368774414063, -5.455379486083984375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.259867191314697266, -6.227655410766601563, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.81817162036895752, -0.8469632863998413086, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.01913142204284668, -1.209259390830993652, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -3.363251209259033203, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -3.072752237319946289, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.29754185676574707, -1.804220676422119141, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 3.163689374923706055, -0.8863424062728881836, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 6.827237606048583984, 1.830125212669372559, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 7.331190586090087891, 8.865988731384277344, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 6.412076950073242188, 5.457591056823730469, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 3.974566221237182617, 3.407855033874511719, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 4.128557205200195313, 1.846449494361877441, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.286579132080078125, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
+boolstatus = Part.Extension.SetUserPreferenceToggle(swUserPreferenceToggle_e.swSketchAddConstToRectEntity, swUserPreferenceOption_e.swDetailingNoOptionSpecified, True)
+boolstatus = Part.Extension.SetUserPreferenceToggle(swUserPreferenceToggle_e.swSketchAddConstLineDiagonalType, swUserPreferenceOption_e.swDetailingNoOptionSpecified, True)
+Dim vSkLines As Variant
+vSkLines = Part.SketchManager.CreateCenterRectangle(0, 0, 0, 0.02497456552153970444, 0.03238888966074680853, 0)
 Part.SetPickMode
 Part.ClearSelection2 True
-Part.SetPickMode
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 0
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "sprint2_design", False, longstatus
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.50820612907409668, 0.07964170724153518677, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -7.1685333251953125, -0.7225567102432250977, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -93.3020782470703125, -29.416168212890625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -30.56351470947265625, -11.04700851440429688, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -17.67126846313476563, -1.233345508575439453, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -15.55621623992919922, -5.541773796081542969, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -25.03030776977539063, -8.7570953369140625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -13.19358062744140625, -5.395055294036865234, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -10.06985569000244141, -19.59540939331054688, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.503877401351928711, -33.46134567260742188, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 10.97849941253662109, -21.88544464111328125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 13.39694881439208984, -23.57346916198730469, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 11.24799251556396484, -9.505648612976074219, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 4.865362167358398438, -0.6113941669464111328, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.1071513816714286804, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -16.98909759521484375, 29.49062347412109375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -11.35382747650146484, 17.88929176330566406, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -10.41570377349853516, 17.92626190185546875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -10.87581157684326172, 15.45662498474121094, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -22.56430625915527344, 29.39990234375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -11.53935527801513672, 16.21417045593261719, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -8.359761238098144531, 12.21816062927246094, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.627805709838867188, 5.657387256622314453, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.727641820907592773, 2.390073299407958984, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.090941667556762695, 0.3315252065658569336, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.004721281584352254868, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.2774973809719085693, 0.3568054735660552979, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.01372230891138315201, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.0578221343457698822, 0.04368240013718605042, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+boolstatus = Part.Extension.SelectByRay(0.1462440566200484682, 0.06055124677104517517, -0.09852503151307701046, -0.9462909959768710522, 0.00656028878784467584, 0.3232496149172052746, 0.001102874503334399332, 2, False, 0, 0)
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.047787189483642578, -5.127980232238769531, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -8.231291770935058594, -18.00833702087402344, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -23.60193252563476563, -196.0352020263671875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.572938442230224609, -26.17877388000488281, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.599626779556274414, -27.3459930419921875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.212027072906494141, -24.61808586120605469, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.675349950790405273, -50.2742767333984375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 3.073201656341552734, -13.81536865234375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.144582986831665039, -4.785500049591064453, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 2.310791015625, -3.701447486877441406, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.089217782020568848, -5.858642578125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -10.05011749267578125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.0006317088264040648937, -11.83140468597412109, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.1306594312191009521, -3.901491641998291016, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.3213651180267333984, -2.964208602905273438, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 12.00312614440917969, -35.90550994873046875, 0.8280289173126220703, -0.05002677440643310547
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.8335503935813903809, -2.362204790115356445, 0.9784987568855285645, 0.0006636381149291992188
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.2222801148891448975, 2.501157999038696289, 0.9878255724906921387, -0.001952409744262695313
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 7.640878677368164063, 46.9661865234375, 0.9627286195755004883, -0.01054435968399047852
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 17.42120361328125, 67.89253997802734375, 1.008826613426208496, -0.009025871753692626953
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 6.029347896575927734, 29.79157066345214844, 1.000640749931335449, 0.004151582717895507813
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 1.472904086112976074, 0.9990397095680236816, -0.0002590417861938476563
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0.1389532238245010376, 0.9993131756782531738, -0.0001853108406066894531
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.4167751967906951904, 0.2779064476490020752, 0.9991848468780517578, -0.002434432506561279297
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.3542962372303009033, -1.021448731422424316, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.8618848919868469238, -4.49608612060546875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -2.691431522369384766, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, -3.19811558723449707, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.217840343713760376, -1.296234130859375, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.2025538384914398193, -0.1117189303040504456, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0, 0, 1, 0
+boolstatus = Part.Extension.SelectByRay(0.01877763948072086464, 0.1192940612056645477, -0.133894427577573083, -0.03984596736049809268, -0.970497453791034137, 0.2377961123951054523, 0.008361078993962290165, 1, False, 0, 0)
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.118954181671142578, 0.8185204267501831055, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -83.46617889404296875, 60.1945343017578125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -12.27163505554199219, 7.447892665863037109, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -11.95719528198242188, 6.471488475799560547, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -9.958423614501953125, 4.787074089050292969, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -10.39163589477539063, 5.909800052642822266, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.7362350225448608398, 0.8233996033668518066, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.04778262600302696228, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 4.574501514434814453, -4.541090011596679688, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 25.36772537231445313, -11.06067657470703125, 1.038235068321228027, -0.2141208648681640625
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 8.780064582824707031, -37.73969268798828125, 0.9337399005889892578, -0.3673226833343505859
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.222540616989135742, -24.09448814392089844, 0.9667865633964538574, -0.1779006123542785645
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 12.80889129638671875, -2.779064416885375977, 0.9651601314544677734, -0.1367793679237365723
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 1.389250636100769043, 1.000463128089904785, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 4.445601940155029297, 2.084298372268676758, 0.9733338356018066406, -0.01725023984909057617
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.3652532100677490234, 0.4232203960418701172, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 6.390552997589111328, 8.837424278259277344, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 73.18572235107421875, 114.4974517822265625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 15.83745765686035156, 14.56229782104492188, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 6.057132720947265625, 6.558591842651367188, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy 0.6121521592140197754, 0.5558128952980041504, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.6436273455619812012, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -6.298807144165039063, 0, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -9.989492416381835938, -0.04012545570731163025, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -9.965723037719726563, -4.401044845581054688, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -9.070132255554199219, -6.055130958557128906, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -7.437788963317871094, -3.795743227005004883, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -4.650964260101318359, -3.898302793502807617, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.433772563934326172, -3.767314910888671875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.453770875930786133, -3.729510068893432617, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -2.188483715057373047, -2.57025456428527832, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.913794517517089844, -2.042503833770751953, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.506777286529541016, -2.058122396469116211, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.9722007513046264648, -1.281850337982177734, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.029961824417114258, -1.296722650527954102, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.7356719970703125, -1.592513799667358398, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.4114569723606109619, -1.683321952819824219, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.6232702136039733887, -2.026776552200317383, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.783705592155456543, -2.166693210601806641, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.278521060943603516, -6.728253364562988281, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.098220348358154297, -6.651584625244140625, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.234282732009887695, -6.030284881591796875, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.054494142532348633, -6.421436786651611328, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.002543091773986816, -5.782102584838867188, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.010221958160400391, -6.331456661224365234, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.3861241936683654785, -4.170625209808349609, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.3350787162780761719, -1.534035444259643555, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.2873096466064453125, -0.2977588474750518799, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.1334406435489654541, -0.00343990628607571125, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -0.6044970154762268066, -0.5322559475898742676, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.108219146728515625, -2.000152826309204102, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.759878396987915039, -6.103937625885009766, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -5.113279819488525391, -6.291558265686035156, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -3.250493764877319336, -3.955308914184570313, 1, 0
+Set myModelView = Part.ActiveView
+myModelView.ManipulateBy -1.995333433151245117, -1.823754191398620605, 1, 0
 Part.ClearSelection2 True
-Part.SetPickMode
-Part.ClearSelection2 True
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 4.151732444763183594, 1.774164795875549316, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 67.09114837646484375, 11.68102741241455078, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 16.54174232482910156, 11.21999073028564453, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 4.61231231689453125, 11.01173496246337891, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.611791372299194336, 11.62935638427734375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.010408520698547363, 6.4521484375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.4125016331672668457, 1.099005937576293945, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.2980851531028747559, 0.05383758619427680969, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.3653634190559387207, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.131194591522216797, -1.59043431282043457, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.746697783470153809, -2.987365245819091797, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.106397151947021484, -3.340668201446533203, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.6056061387062072754, -2.598767757415771484, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.006254341453313827515, -8.130659103393554688, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.574753522872924805, -6.112414836883544922, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.136571407318115234, -9.428826332092285156, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.793262243270874023, -6.510104179382324219, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.621308565139770508, -6.463841438293457031, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.966888666152954102, -5.286153793334960938, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.8790944814682006836, -3.212255477905273438, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -0.1837486475706100464, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.668335437774658203, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.8163204193115234375, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.779022216796875, 5.558128833770751953, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.097375154495239258, 4.033422946929931641, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.659048795700073242, 2.334653377532958984, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.3528072535991668701, 0.2983278930187225342, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0.8797823190689086914, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0.277212679386138916, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 1.617612600326538086, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Part.SetPickMode
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.49044489860534668, -0.5078040957450866699, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -29.06312370300292969, -13.95886898040771484, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -29.44598197937011719, -16.01420783996582031, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -18.12196159362792969, -22.75233840942382813, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -10.15221309661865234, -23.08465766906738281, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.629376649856567383, -5.162946701049804688, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.105538368225097656, -3.412482023239135742, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -6.674379348754882813, -8.74118804931640625, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -8.223814010620117188, -11.69291305541992188, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.434144973754882813, -6.663335800170898438, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -7.040868759155273438, -8.688796043395996094, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.837498188018798828, -3.813587188720703125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.352810025215148926, -0.3605727553367614746, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 4.327529430389404297, 4.568222999572753906, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 10.11374473571777344, -18.73089408874511719, 0.9764759540557861328, -0.1892400383949279785
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.6390553116798400879, -2.723483085632324219, 0.9828426241874694824, -0.05265331268310546875
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.4167751967906951904, -0.05558128654956817627, 0.9623357653617858887, -0.05668395757675170898
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.3612051606178283691, 0.05558128654956817627, 0.9863193631172180176, -0.02593582868576049805
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.4167751967906951904, 0.4724409580230712891, 0.9956101775169372559, -0.002707809209823608398
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.5110910534858703613, 1.200195670127868652, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.301573753356933594, 18.79586219787597656, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 43.70809173583984375, 70.13419342041015625, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 8.839776039123535156, 6.447429180145263672, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.778501272201538086, 4.390921592712402344, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.633893132209777832, 2.278832674026489258, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0.2883143723011016846, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0.1994195878505706787, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.5033591389656066895, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.289412975311279297, 0.1418978273868560791, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -8.097794532775878906, 0.2635022401809692383, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -8.072302818298339844, -1.351421833038330078, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -8.189320564270019531, -4.177172660827636719, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.796048641204833984, -2.144452571868896484, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.09269585460424423218, -0.9057741761207580566, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -0.6706256866455078125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.779282569885253906, 3.001389503479003906, 1.016905903816223145, 0.2032947540283203125
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 8.974559783935546875, 19.09217262268066406, 1.024561047554016113, 0.1901485323905944824
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.8335503935813903809, 17.45252418518066406, 0.9903446435928344727, 0.09147787094116210938
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.612572669982910156, -2.91801762580871582, 0.9815745949745178223, 0.0489037632942199707
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 7.880147457122802734, 4.754402637481689453, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 66.79517364501953125, 45.52107620239257813, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 43.17790985107421875, 22.06577491760253906, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 26.56247329711914063, 18.89763832092285156, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 33.34201431274414063, 19.53064918518066406, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 23.78397178649902344, 9.593939781188964844, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 18.56038856506347656, 3.334877252578735352, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 6.835113525390625, -1.915071249008178711, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.729421615600585938, -9.889405250549316406, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 10.02268409729003906, -10.09246826171875, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 7.921767711639404297, -9.14197540283203125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.7208094596862792969, -7.524160861968994141, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -14.48350811004638672, -14.53583049774169922, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -7.456368923187255859, -10.50117206573486328, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -12.54738903045654297, -23.5426483154296875, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -8.517368316650390625, -11.95870208740234375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -20.19970512390136719, 2.501157999038696289, 0.9847844839096069336, 0.07176759839057922363
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -12.30876064300537109, -7.698008537292480469, 0.9471676349639892578, 0.07557272911071777344
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -7.00182342529296875, -4.779990673065185547, 0.9780893921852111816, 0.02238005399703979492
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.7779803872108459473, -0.6947661042213439941, 1.002610206604003906, 0.002296239137649536133
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.5557002425193786621, -0.4446502923965454102, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.285389304161071777, -1.945345044136047363, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -7.475710391998291016, -13.61741542816162109, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.023910999298095703, -6.225104331970214844, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.16672980785369873, -4.521081924438476563, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.451383709907531738, -6.3466339111328125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.123319029808044434, -7.321545600891113281, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.7061300873756408691, -4.249729633331298828, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.8070372939109802246, -3.578859567642211914, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.591807842254638672, -6.701928138732910156, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.358792304992675781, -12.93358612060546875, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.610746622085571289, -18.47446823120117188, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -14.08113193511962891, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -9.889519691467285156, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -4.678666114807128906, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.1533432900905609131, -4.059401512145996094, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.1960790306329727173, -3.493547201156616211, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.07218609005212783813, -0.6087751984596252441, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.6247524023056030273, -0.4166425466537475586, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.8081023097038269043, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.304315567016601563, 6.214139938354492188, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.855517983436584473, 7.314299583435058594, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.696169376373291016, 6.547111988067626953, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.79015803337097168, 4.865913867950439453, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.683919668197631836, 4.351053714752197266, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.085073947906494141, 2.174712657928466797, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.3722622096538543701, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.1394609659910202026, -4.145989418029785156, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 30.25788307189941406, 23.56646537780761719, 1.05830681324005127, -0.1313547492027282715
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.639576196670532227, 2.584529876708984375, 0.9871770143508911133, -0.01142260432243347168
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.05557002872228622437, -0.9170912504196166992, 0.9919863343238830566, -0.009196609258651733398
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -0.1945345103740692139, 0.999254763126373291, -0.0009100437164306640625
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 4.326519966125488281, 15.77473354339599609, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 12.90018844604492188, 29.69075775146484375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.1670763939619064331, 12.72811508178710938, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.8821080327033996582, 6.113941669464111328, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 3.501621007919311523, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 1.544402599334716797, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.1170280873775482178, 2.659020423889160156, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.8145160675048828125, 2.516437292098999023, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.3898703455924987793, 0.004223275464028120041, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -43.24473953247070313, -0.8307229280471801758, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -13.15883922576904297, -5.572371006011962891, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.065073490142822266, -2.32998967170715332, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -9.20229339599609375, -2.345555782318115234, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -7.522127628326416016, -2.624352455139160156, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -4.045168399810791016, -2.418097257614135742, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -8.350102424621582031, -3.879744291305541992, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -20.59680747985839844, -18.31351470947265625, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -17.53949165344238281, -17.980377197265625, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.315674781799316406, -8.349117279052734375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.108985662460327148, -2.100826025009155273, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -0.4845111370086669922, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -0.910930633544921875, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -0.2837820947170257568, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.304563373327255249, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 5.157213211059570313, -0.3079496324062347412, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 8.747801780700683594, -0.9131967425346374512, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 6.593202114105224609, -0.9702639579772949219, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 6.694675445556640625, -1.513436675071716309, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 4.000316143035888672, -1.25310981273651123, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 3.956874847412109375, -1.32913362979888916, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 4.480645656585693359, -1.459714412689208984, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 3.842085361480712891, -1.240700244903564453, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 4.705611705780029297, -1.819927573204040527, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 5.097925662994384766, -1.553155064582824707, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 5.190927028656005859, -1.611240029335021973, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 4.043886184692382813, -0.2937218546867370605, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 4.804039478302001953, -0.7344098091125488281, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 10.34434127807617188, -1.205405592918395996, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.46823883056640625, -1.207420706748962402, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 7.278411865234375, -1.077884793281555176, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 6.019901752471923828, -0.2599809169769287109, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 3.01199793815612793, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.357303380966186523, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.041866779327392578, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.27162972092628479, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.133220180869102478, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.7578454017639160156, 7.006872177124023438, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.4590767920017242432, 5.188172817230224609, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 3.792235612869262695, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.1915052831172943115, 3.628748416900634766, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 3.823825836181640625, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 1.736772656440734863, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.08852402865886688232, 0.9899331331253051758, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.8768966794013977051, 0.6277523636817932129, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.2460934072732925415, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0.01199557073414325714, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.6686379313468933105, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.3326672017574310303, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.156760215759277344, -2.883272409439086914, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -15.19840240478515625, 1.528485417366027832, 0.8595717549324035645, -0.1862926483154296875
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.056351423263549805, -5.697082042694091797, 0.922593533992767334, -0.09687587618827819824
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.6390553116798400879, 0.6947661042213439941, 0.9835832715034484863, -0.01468628644943237305
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.6668403148651123047, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.373899698257446289, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -14.29677295684814453, -0.5088576674461364746, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.860453605651855469, -0.06579923629760742188, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -7.756970882415771484, -0.07730205357074737549, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -7.822580337524414063, -0.3285610973834991455, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -6.620159149169921875, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -7.877078533172607422, -0.1213873103260993958, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -25.99076271057128906, -0.8004058003425598145, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -24.360565185546875, -2.868210077285766602, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.885663628578186035, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.8940180540084838867, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.004992619622498750687, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.530260086059570313, 11.61648941040039063, 0.9456973671913146973, -0.1882843971252441406
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 1.222540616989135742, -7.864752292633056641, 0.962519228458404541, -0.09163764119148254395
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.5557002425193786621, -0.5002315640449523926, 0.9839219450950622559, -0.01474812626838684082
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.001302242279052734, 2.223251581192016602, 0.9952004551887512207, 0.07760214805603027344
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -2.639576196670532227, -1.056044459342956543, 0.9950410723686218262, 0.03195369243621826172
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.444820642471313477, -0.4168596565723419189, 1.000119924545288086, 0.01062345504760742188
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.482321023941040039, -1.316552042961120605, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 28.78432083129882813, -18.049468994140625, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 28.0747833251953125, -14.0174560546875, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 25.22495460510253906, -15.68398952484130859, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 36.59291839599609375, -14.17315769195556641, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 36.64636993408203125, -13.73790740966796875, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 65.12807464599609375, -13.84747505187988281, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 18.50481986999511719, -2.336476564407348633, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 22.06130027770996094, -2.959160804748535156, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 23.39498138427734375, -5.948262691497802734, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 56.9928436279296875, -11.93304824829101563, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 112.5363845825195313, -23.56263923645019531, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 55.930908203125, -11.71070289611816406, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 41.19329071044921875, -8.624964714050292969, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 33.86890029907226563, -7.091404438018798828, 1, 0
-boolstatus = Part.Extension.SelectByID2("Line2@Sketch1", "EXTSKETCHSEGMENT", -0.1499996999999999581, -0.01582799747360749687, 0, False, 0, Nothing, 0)
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.2797297835350036621, -4.611469268798828125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.385141611099243164, -28.67994499206542969, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.390360832214355469, -39.01806259155273438, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.061351537704467773, -32.45948028564453125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 2.100873470306396484, -23.955535888671875, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.2735494375228881836, -20.676239013671875, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 13.09695816040039063, -23.34738540649414063, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 17.88316917419433594, -22.813568115234375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 8.038625717163085938, -24.15358352661132813, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 3.880472898483276367, -28.72792816162109375, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 7.465455055236816406, -10.28593063354492188, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 8.753011703491210938, -6.431525707244873047, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.232805252075195313, -10.20738887786865234, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 27.53404617309570313, -20.86586189270019531, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.129283905029296875, -7.873057365417480469, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 29.74787330627441406, -25.65445518493652344, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 9.366547584533691406, -8.077660560607910156, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.23456883430480957, -4.996050357818603516, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -9.465917587280273438, -45.96572494506835938, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -5.976521968841552734, -16.06298828125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -3.219898700714111328, -11.83881473541259766, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -1.108007073402404785, -4.335340499877929688, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.1095154210925102234, -0.926807105541229248, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.2890055179595947266, -0.6137620806694030762, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -0.3694405257701873779, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -0.5348138213157653809, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -0.7258745431900024414, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -0.8741840124130249023, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -1.771850347518920898, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.4644933938980102539, -2.695821285247802734, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.601748049259185791, -3.079469203948974609, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0.2645393013954162598, -4.939929485321044922, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -4.657395839691162109, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -3.259178876876831055, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -3.166973352432250977, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.05397761240601539612, -6.490879535675048828, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.2980224192142486572, -8.783322334289550781, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.1157222762703895569, -7.502455711364746094, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -3.96849822998046875, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, -0.8284407258033752441, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.03482962772250175476, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.03462103754281997681, 0, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.02990314550697803497, 13.00602149963378906, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy -0.02972677536308765411, 8.3016815185546875, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 5.373737335205078125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 4.297426700592041016, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 3.871720075607299805, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 3.353705167770385742, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 1.791919708251953125, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0.2629391252994537354, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0.1179270446300506592, 1, 0
-Set myModelView = Part.ActiveView
-myModelView.ManipulateBy 0, 0, 1, 0
-Part.ClearSelection2 True
-Dim swConfig As Object
-Dim swDimXPertMgr As Object
-Dim swDimXPertPart As Object
-Dim swADSOpt As Object
-Set swConfig = Part.ConfigurationManager.ActiveConfiguration
-Set swDimXPertMgr = Part.Extension.DimXpertManager(swConfig.Name, True)
-Set swDimXPertPart = swDimXPertMgr.DimXpertPart
-Set swADSOpt = swDimXPertPart.GetAutoDimSchemeOption()
-swADSOpt.PartType = swDimXpertAutoDimSchemePartType_Prismatic
-swADSOpt.ToleranceType = swDimXpertAutoDimSchemeToleranceType_PlusMinus
-swADSOpt.PatternType = swDimXpertAutoDimSchemePatternType_Linear
-swADSOpt.PolarPatternHoleCount = 5
-swADSOpt.ScopeAllFeature = True
-swADSOpt.FeatureFilters = 8191
-boolstatus = swDimXPertPart.AutoDimensionScheme(swADSOpt)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 28
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "Part1", False, longstatus
+Set Part = swApp.ActiveDoc
+swApp.ExitApp
+End Sub
