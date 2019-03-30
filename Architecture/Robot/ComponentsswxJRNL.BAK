@@ -28,14 +28,5 @@ Set myModelView = Part.ActiveView
 myModelView.FrameState = swWindowState_e.swWindowMaximized
 Set myModelView = Part.ActiveView
 myModelView.FrameState = swWindowState_e.swWindowMaximized
-' MSGBOX
-' Triangles: 1332
-' File Size: 66684 (Bytes)
-' File Format: Binary
-' Save C:\USERS\USER\DESKTOP\GITHUB\SALA-SLAMMERS\ARCHITECTURE\ROBOT\COMPONENTS\WHEEL_PLATE.STL?
-
-
-' Save As
-longstatus = Part.SaveAs3("C:\Users\USER\Desktop\Github\Sala-Slammers\Architecture\Robot\Components\wheel_plate.STL", 0, 0)
 swApp.ExitApp
 End Sub
