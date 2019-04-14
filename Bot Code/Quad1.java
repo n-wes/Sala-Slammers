@@ -24,10 +24,10 @@ public class Quad1 {
 		robot.runPCAServo(CHANNEL_SERVO_CONDUCTIVITY, endPos);
 		robot.sleep(2000);
 		
-		
+		System.out.println(conductance());
 		// return the servo
-//		robot.sleep(1000);
-//		robot.runPCAServo(CHANNEL_SERVO_CONDUCTIVITY, startPos);
+		robot.sleep(1000);
+		robot.runPCAServo(CHANNEL_SERVO_CONDUCTIVITY, startPos);
 	}
 	
 	public static double getSlopeAngle() {
@@ -54,7 +54,7 @@ public class Quad1 {
 		robot.runForward(1000);
 		
 		while (true) {
-			int dist = robot.getPing(5);
+			int dist = robot.getPing(robot.PING_PIN);
 			int distToRamp = 30;
 			if (dist < distToRamp) {
 				robot.allPCAStop();
@@ -114,17 +114,12 @@ public class Quad1 {
 	}
 	
 	public static void main(String[] args) {
-		robot.setPort("COM8");
+		robot.setPort("COM5");
 		robot.connect();
-//		robot.runPCAServo(robot.CHANNEL_SERVO_IR, 120);
-//		goToRamp();
-//		goUpSlope();
-//		robot.turnRight(600);
-//		robot.sleep(1000);
-//		robot.runForward(2000);
-//		robot.sleep(2000);
-//		getSoilConductance();
-		System.out.println(conductance());
+		
+		goToRamp();
+		goUpSlope();
+		getSoilConductance();
 		
 		
 		robot.close();

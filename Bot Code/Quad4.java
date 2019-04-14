@@ -50,7 +50,7 @@ public class Quad4 {
 		return result;
 	}
 	
-	public static void turnLeft(int time) {
+	public static void turnLeftAround(int time) {
 		int speedLeft = -38;
 		int speedRight = -38;
 		
@@ -63,59 +63,64 @@ public class Quad4 {
 		int speedRight = 308;
 		
 		robot.runTwoPCAMotor(robot.CHANNEL_LEFT_WHEEL, speedLeft, robot.CHANNEL_RIGHT_WHEEL, speedRight, time);
+		robot.sleep(1000);
+	}
+	
+	public static void navigateTempBox() {
+		robot.runForward(300);
+		robot.runPCAServo(robot.CHANNEL_SERVO_IR, 60);
+		while (true) {
+			if (robot.isBeacon('K')) break;
+			turnLeftAround(20);
+			robot.sleep(1000);
+		}
+		
+		robot.runForward(2000);
+		robot.sleep(2000);
+		System.out.println("Temperature: " + measureTemperature());
+	}
+	
+	public static void goToBridge() {
+		robot.sleep(2000);
+		robot.runPCAServo(robot.CHANNEL_SERVO_IR, 0);
+		
+		robot.runBackward(100);
+		robot.sleep(2000);
+		robot.turnLeft();
+		robot.sleep(2000);
+		
+		while(true) {
+			if (robot.isBeacon('N')) break;
+			robot.runForwardSlow(200);
+			robot.sleep(500);
+		}		
+		
+		robot.sleep(3000);
+		robot.turnRight();
+		robot.sleep(3000);
+		robot.runForward(2500);
+		while (true) {
+			int dist = robot.getPing(robot.PING_PIN);
+			int distToBrigde = 30;
+			if (dist < distToBrigde) {
+				robot.allPCAStop();
+				break;
+			}
+		}
+		robot.runForward(100);
+		robot.sleep(5000);
+		robot.turnRight();
+		robot.sleep(3000);
+		robot.runForward(4000);
 	}
 	
 	public static void main(String[] args) {
 		robot.setPort("COM5");
 		robot.connect();
 		
-//		downSlope();
-//		robot.sleep(1000);
-//		robot.runForward(300);
-//		robot.runPCAServo(robot.CHANNEL_SERVO_IR, 60);
-//		while (true) {
-//			if (robot.isBeacon('K')) break;
-//			turnLeft(20);
-//			robot.sleep(1000);
-//		}
-//		
-//		robot.runForward(2000);
-//		robot.sleep(2000);
-//		System.out.println("Temperature: " + measureTemperature());
-		
-//		robot.sleep(2000);
-//		robot.runPCAServo(robot.CHANNEL_SERVO_IR, 0);
-//		
-//		robot.runBackward(100);
-//		robot.sleep(2000);
-//		robot.turnLeft();
-//		robot.sleep(2000);
-//		
-//		while(true) {
-//			if (robot.isBeacon('N')) break;
-//			robot.runForwardSlow(200);
-//			robot.sleep(500);
-//		}		
-//		
-//		robot.sleep(3000);
-//		robot.turnRight();
-//		robot.sleep(3000);
-//		robot.runForward(2500);
-//		while (true) {
-//			int dist = robot.getPing(5);
-//			int distToBrigde = 30;
-//			if (dist < distToBrigde) {
-//				robot.allPCAStop();
-//				break;
-//			}
-//		}
-//		robot.runForward(100);
-//		robot.sleep(5000);
-//		robot.turnRight();
-//		robot.sleep(3000);
-		robot.runForward(4000);
-		
-		
+		downSlope();
+		navigateTempBox();
+		goToBridge();
 		
 		robot.close();
 	}

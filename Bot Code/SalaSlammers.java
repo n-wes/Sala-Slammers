@@ -10,6 +10,10 @@ public class SalaSlammers extends ArduinoUno {
 	final public int CHANNEL_SERVO_IR = 1;
 	final private int BEACON_READING_COUNT = 1;
 	
+	// Ping sensor
+	final public int PING_PIN = 5;
+	
+	
 //	------------------------------------------------------
 //	Constructor
 	
@@ -75,10 +79,6 @@ public class SalaSlammers extends ArduinoUno {
 	}
 
 
-//	----------------------------------------------------
-//	Get temperature
-	
-	
 	
 //	------------------------------------------------------------
 //	Find beacons

@@ -2,7 +2,6 @@
 public class Quad3 {
 	public static SalaSlammers robot = new SalaSlammers();
 	
-	final private static int PING_PIN = 5;
 	
 	// Inclinometer
 	final private static int CHANNEL_INCLINOMETER = 1;
@@ -20,7 +19,7 @@ public class Quad3 {
 		int startTime = (int) System.currentTimeMillis();
 
 		while (true) {
-			int curDist = robot.getPing(PING_PIN); 
+			int curDist = robot.getPing(robot.PING_PIN); 
 
 			System.out.println(curDist);
 			if (curDist > distToWall) {
@@ -78,18 +77,7 @@ public class Quad3 {
 		robot.runForward(1500);
 	}
 	
-	
-
-	public static void main(String[] args) {
-		robot.setPort("COM5");
-		robot.connect();
-		
-//		passWalls();
-		
-//		System.out.println(robot.getIRChar());
-		
-		// go up slope
-		
+	public static void goUpSlope() {
 		robot.runForward(2500);
 		robot.sleep(1000);
 		
@@ -102,6 +90,16 @@ public class Quad3 {
 		System.out.println("Angle: " + getSlopeAngle());
 		
 		robot.close();
+	}
+	
+
+	public static void main(String[] args) {
+		robot.setPort("COM5");
+		robot.connect();
+		
+		passWalls();
+		goUpSlope();
+		
 
 	}
 }
