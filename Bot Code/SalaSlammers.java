@@ -3,15 +3,15 @@ import rxtxrobot.*;
 public class SalaSlammers extends ArduinoUno {
 	
 	// Movement
-	final public int CHANNEL_LEFT_WHEEL = 15;
-	final public int CHANNEL_RIGHT_WHEEL = 14;
+	final protected int CHANNEL_LEFT_WHEEL = 15;
+	final protected int CHANNEL_RIGHT_WHEEL = 14;
 	
 	// Find beacons
-	final public int CHANNEL_SERVO_IR = 1;
-	final private int BEACON_READING_COUNT = 1;
+	final protected int CHANNEL_SERVO_IR = 1;
+	final protected int BEACON_READING_COUNT = 1;
 	
 	// Ping sensor
-	final public int PING_PIN = 5;
+	final protected int PING_PIN = 5;
 	
 	
 //	------------------------------------------------------
@@ -19,61 +19,50 @@ public class SalaSlammers extends ArduinoUno {
 	
 	public SalaSlammers() {
 		super();
+		setPort("COM9");
+		connect();
 	}
 
 //	-----------------------------------------------------	
 //	Movement
 	
+	
+	
+	public void runForward(int speed, int time) {
+		int speedZero = 120;
+		
+		int speedLeft = speedZero + speed;
+		int speedRight = speedZero - speed;
+						
+		runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
+	}
+	
 	public void runForward(int time) {
-		int	speedLeft = 415; 
-		int	speedRight = -165;
-					
-		runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
-	}
-	
-	public void upSlope(int time) {
-		int speedLeft = 540; 
-		int speedRight = -295;
-		
-		runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
-	}
-	
-	public void runForwardSlow(int time) {
-		int	speedLeft = 305; 
-		int	speedRight = -50;
-					
-		runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
-	}
-	
-	public void runBackward(int time) {
-		int speedLeft = -120;
-		int speedRight = 315;
-		
-		runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
+		runForward(150, time);
 	}
 	
 	public void turnLeft() {
-		int time = 420;
+		int time = 720;
 		
 		turnLeft(time);
 	}
 	
 	public void turnRight() {
-		int time = 350;
+		int time = 720;
 		
 		turnRight(time);
 	}
 	
 	public void turnLeft(int time) {
-		int speedLeft = -58;
-		int speedRight = -58;
+		int speedLeft = -60;
+		int speedRight = -60;
 		
 		runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
 	}
 	
 	public void turnRight(int time) {
-		int speedLeft = 308;
-		int speedRight = 308;
+		int speedLeft = 300;
+		int speedRight = 300;
 		
 		runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
 	}

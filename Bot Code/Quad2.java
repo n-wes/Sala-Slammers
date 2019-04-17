@@ -1,50 +1,51 @@
 
-public class Quad2 {
+public class Quad2 extends SalaSlammers {
 	
-	public static SalaSlammers robot = new SalaSlammers();
+	Quad2() {
+		super();
+	}
 	
-	
-	public static void main(String[] args) {
-		robot.setPort("COM5");
-		robot.connect();
+	public void work() 	{
+		runPCAServo(CHANNEL_SERVO_IR, 0);
 		
-		
-		robot.runPCAServo(robot.CHANNEL_SERVO_IR, 0);
-		
-		robot.runForward(1350);
-		robot.sleep(2500);
+		runForward(1350);
+		sleep(2500);
 		
 		for (int i = 0; i < 4; i++) {
-			if (robot.isBeacon('S')) break;
-			robot.runForwardSlow(120);
-			robot.sleep(500);
+			if (isBeacon('S')) break;
+			runForward(120);
+			sleep(500);
 		}
-		robot.sleep(2800);
-		robot.turnRight();
-		robot.sleep(4000);
+		sleep(2800);
+		turnRight();
+		sleep(4000);
 		
-		robot.runForward(1500);
-		robot.sleep(5000);
-		robot.turnRight();
-		robot.sleep(3000);
-		robot.runForwardSlow(500);
-		robot.sleep(2000);
-		robot.turnRight();
-		robot.sleep(2000);
+		runForward(1500);
+		sleep(5000);
+		turnRight();
+		sleep(3000);
+		runForward(500);
+		sleep(2000);
+		turnRight();
+		sleep(2000);
 		
-		robot.runPCAServo(robot.CHANNEL_SERVO_IR, 125);
+		runPCAServo(CHANNEL_SERVO_IR, 125);
 		
 		for (int i = 0; i < 6; i++) {
-			if (robot.isBeacon('G')) break;
-			robot.runForwardSlow(200);
-			robot.sleep(500);
+			if (isBeacon('G')) break;
+			runForward(200);
+			sleep(500);
 		}
-		robot.runForwardSlow(200);
+		runForward(200);
 			
-		robot.sleep(3000);
-		robot.turnLeft();
-		robot.sleep(3000);
-		robot.runForward(1800);
-		robot.close();
+		sleep(3000);
+		turnLeft();
+		sleep(3000);
+		runForward(1800);
+	}
+	
+	public static void main(String[] args) {
+		Quad2 robot = new Quad2();
+		robot.work();
 	}
 }
