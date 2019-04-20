@@ -5,6 +5,8 @@ public class SalaSlammers extends ArduinoUno {
 	// Movement
 	final protected int CHANNEL_LEFT_WHEEL = 15;
 	final protected int CHANNEL_RIGHT_WHEEL = 14;
+	final protected int TURN_LEFT_TIME = 1100;
+	final protected int TURN_RIGHT_TIME = 920;
 	
 	// Find beacons
 	final protected int CHANNEL_SERVO_IR = 1;
@@ -42,21 +44,18 @@ public class SalaSlammers extends ArduinoUno {
 	}
 	
 	public void turnLeft() {
-		int time = 720;
-		
-		turnLeft(time);
+		turnLeft(TURN_LEFT_TIME);
 	}
 	
 	public void turnRight() {
-		int time = 720;
-		
-		turnRight(time);
+		turnRight(TURN_RIGHT_TIME);
 	}
 	
 	public void turnLeft(int time) {
 		int speedLeft = -60;
 		int speedRight = -60;
 		
+		allPCAStop();
 		runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
 	}
 	
@@ -64,6 +63,7 @@ public class SalaSlammers extends ArduinoUno {
 		int speedLeft = 300;
 		int speedRight = 300;
 		
+		allPCAStop();
 		runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
 	}
 
@@ -91,4 +91,24 @@ public class SalaSlammers extends ArduinoUno {
 			return false;
 		}
 	}
+	
+
+	public void turnAround(int time) {
+		int speedLeft = 270;
+		int speedRight = 270;
+		
+		runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
+	}
+	
+	
+	public void findBeacon(char beacon) {
+		runPCAServo(CHANNEL_SERVO_IR, 60);
+		while (true) {
+			if (getIRChar() == beacon) break;
+			turnAround(10);
+			sleep(50);
+		}
+		System.out.println("Found");
+	}
+
 }

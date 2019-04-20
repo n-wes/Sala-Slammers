@@ -8,23 +8,33 @@ public class Quad2 extends SalaSlammers {
 	public void work() 	{
 		runPCAServo(CHANNEL_SERVO_IR, 0);
 		
-		runForward(1350);
-		sleep(2500);
+		runForward(200, 1500);
 		
-		for (int i = 0; i < 4; i++) {
+//		int distToWall = 90;
+//		while (true) {
+//			int dist = getPing(PING_PIN);
+//			System.out.println(dist);
+//			
+//			if (dist > distToWall) {
+//				allPCAStop();
+//				break;
+//			}
+//		}
+		sleep(2000);
+		for (int i = 0; i < 8; i++) {
 			if (isBeacon('S')) break;
-			runForward(120);
+			runForward(150, 120);
 			sleep(500);
 		}
 		sleep(2800);
 		turnRight();
-		sleep(4000);
+		sleep(3000);
 		
-		runForward(1500);
+		runForward(250, 2200);
 		sleep(5000);
 		turnRight();
 		sleep(3000);
-		runForward(500);
+		runForward(1000);
 		sleep(2000);
 		turnRight();
 		sleep(2000);
@@ -41,11 +51,13 @@ public class Quad2 extends SalaSlammers {
 		sleep(3000);
 		turnLeft();
 		sleep(3000);
-		runForward(1800);
+		runForward(4800);
 	}
 	
 	public static void main(String[] args) {
 		Quad2 robot = new Quad2();
 		robot.work();
+		
+		robot.close();
 	}
 }

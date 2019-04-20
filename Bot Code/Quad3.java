@@ -7,10 +7,10 @@ public class Quad3 extends SalaSlammers {
 	// type = 0: forward, 1: backward
 	
 	public void findGap(int time, int type) {
-		int distToWall = 40;
+		int distToWall = 60;
 
-		if (type == 0) runForward(0);
-		else runForward(-150, 0);
+		if (type == 0) runForward(250, 0);
+		else runForward(-250, 0);
 		
 		int startTime = (int) System.currentTimeMillis();
 
@@ -33,30 +33,30 @@ public class Quad3 extends SalaSlammers {
 	
 	
 	public void passWalls() {
-		runPCAServo(CHANNEL_SERVO_IR, 120);
 		findGap(5500, 0);
 		sleep(100);
-		runForward(-150, 50);
-		sleep(2000);
+		runForward(-150, 200);
+		sleep(3000);
 		
 		turnRight();
-		sleep(2000);
+		sleep(4000);
 		
-		runForward(350);
+		runForward(200, 1300);
 		sleep(2800);
+		runForward(-150, 200);
 
-		turnLeft(440);
-		sleep(2800);
+		turnLeft(720);
+		sleep(3800);
 		
 		findGap(5500, 1);
 		sleep(500);
-		runForward(20);
-		sleep(2800);
+		runForward(200, 50);
+		sleep(3800);
 		
 		turnRight();
 		sleep(2800);
 		
-		runForward(1500);
+		runForward(200, 1500);
 	}
 	
 	public void goUpSlope() {
@@ -84,7 +84,9 @@ public class Quad3 extends SalaSlammers {
 
 	public static void main(String[] args) {
 		Quad3 robot = new Quad3();
-//		robot.passWalls();
-		robot.goUpSlope();
+		robot.passWalls();
+//		robot.goUpSlope();
+		
+		robot.close();
 	}
 }

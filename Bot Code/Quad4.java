@@ -46,32 +46,24 @@ public class Quad4 extends SalaSlammers{
 		return result;
 	}
 	
-	public void turnLeftAround(int time) {
-		int speedLeft = -38;
-		int speedRight = -38;
-		
-		runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
-	}
-	
 	public void downSlope() {
-		int time = 400;
-		int speedLeft = 308;
-		int speedRight = 308;
+		int time = 200;
+		int speedLeft = 208;
+		int speedRight = 208;
 		
 		runTwoPCAMotor(CHANNEL_LEFT_WHEEL, speedLeft, CHANNEL_RIGHT_WHEEL, speedRight, time);
 		sleep(1000);
 	}
 	
 	public void navigateTempBox() {
-		runForward(300);
+		runForward(-200, 2000);
+		sleep(2000);
+		turnRight();
 		runPCAServo(CHANNEL_SERVO_IR, 60);
-		while (true) {
-			if (isBeacon('K')) break;
-			turnLeftAround(20);
-			sleep(1000);
-		}
-		
-		runForward(2000);
+		findBeacon('K');
+		turnRight(50);
+		sleep(100);
+		runForward(300, 2000);
 		sleep(2000);
 		System.out.println("Temperature: " + measureTemperature());
 	}
@@ -80,7 +72,7 @@ public class Quad4 extends SalaSlammers{
 		sleep(2000);
 		runPCAServo(CHANNEL_SERVO_IR, 0);
 		
-		runForward(-150, 100);
+		runForward(-150, 200);
 		sleep(2000);
 		turnLeft();
 		sleep(2000);
@@ -91,10 +83,11 @@ public class Quad4 extends SalaSlammers{
 			sleep(500);
 		}		
 		
-		sleep(3000);
+		sleep(2000);
 		turnRight();
-		sleep(3000);
-		runForward(2500);
+		sleep(2000);
+		runForward(200, 0);
+		
 		while (true) {
 			int dist = getPing(PING_PIN);
 			int distToBrigde = 30;
@@ -104,10 +97,10 @@ public class Quad4 extends SalaSlammers{
 			}
 		}
 		runForward(100);
-		sleep(5000);
+		sleep(2000);
 		turnRight();
-		sleep(3000);
-		runForward(4000);
+		sleep(2000);
+//		runForward(4000);
 	}
 	
 	public static void main(String[] args) {
@@ -117,5 +110,6 @@ public class Quad4 extends SalaSlammers{
 		robot.navigateTempBox();
 		robot.goToBridge();
 		
+		robot.close();
 	}
 }
