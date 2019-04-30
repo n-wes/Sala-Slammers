@@ -6,65 +6,35 @@ public class Quad1 extends SalaSlammers{
 	Quad1() {
 		super();
 	}
-	
-	public double findTurningAngle() {
-		double angleX = 0;
-		
-		for (int i = 0; i <= 120; i += 5) {
-			runPCAServo(CHANNEL_SERVO_IR, i);
-			char beacon = getIRChar();
-			System.out.println(i + ": " + beacon);
-			if (beacon == 'Z') {
-				angleX = i;
-				break;
-			}
-		}
-		
-		double angleTheta = 90 - 1.5 * angleX;
-		
-		double d = 157;
-		double r = 73;
-		
-		double angleAlpha = Math.asin(r * Math.sin(angleTheta) / d);
-		
-		return 180 - (angleTheta + 90 - angleAlpha);
-	}
-	
-	// 0: go backward, 1: forward
-	public int turnPerpendicularRamp() {
-		double turningAngle = findTurningAngle();
-		System.out.println(turningAngle);
-		
-		int timeTurn = (int) (TURN_LEFT_TIME * turningAngle / 90.0);
-		if (turningAngle < 80) {
-			timeTurn = timeTurn * 7 / 6;
-		}
-		
-		turnLeft(timeTurn);
-		if (turningAngle < 80) return 0;
-		else if (turningAngle > 100) return 1;
-		return 2;
-	}
-	
-	public double conductance() {
-		double adcCode = getConductivity();
-		System.out.println(adcCode);
+		public double conductance() {
+		double sum = 0;
+		int numTimes = 3;
 		
 		double slope = -0.0462;
 		double yIntercept = 46.716;
+
+		for (int i = 0; i < numTimes; i++) {
+			double adcCode = getConductivity();
+			
+			System.out.println("ADC code: " + adcCode);
+			double value = slope * adcCode + yIntercept;
+			System.out.println("Soil conductance: " + value);
+			sum += value;
+		}
 		
-		return slope * adcCode + yIntercept;
+		return sum / numTimes;
 	}
 	
 	public void getSoilConductance() {
-		
-		int startPos = 180;
+		refreshAnalogPins();
+		refreshDigitalPins();
+		int startPos = 170;
 		int endPos = 0;
 		
 		runPCAServo(CHANNEL_SERVO_CONDUCTIVITY, endPos);
 		sleep(2000);
 		
-		System.out.println(conductance());
+		System.out.println("Conductance: " + conductance());
 		// return the servo
 		sleep(1000);
 		runPCAServo(CHANNEL_SERVO_CONDUCTIVITY, startPos);
@@ -79,38 +49,12 @@ public class Quad1 extends SalaSlammers{
 		double yIntercept = 474.3;
 		
 		System.out.println("ADC code for angle: " + adcCode);
-		System.out.println("Angle: " + (adcCode - yIntercept) / slope + 45);
+		System.out.println("Angle: " + ((adcCode - yIntercept) / slope + 44.2));
 		
-		return (adcCode - yIntercept) / slope + 45;
+		return (adcCode - yIntercept) / slope + 44.2;
 	}
 	
-	public void goToRamp() {
-		
-		int dir = turnPerpendicularRamp();
-		sleep(3000);
-		runPCAServo(CHANNEL_SERVO_IR, 0);
-
-		for (int i = 0; i < 15; i++) {
-			if (dir == 2) break;
-			
-			if (dir == 1) runForward(200);
-			else runForward(-130, 200);
-			
-			if (isBeacon('Z')) {
-				allPCAStop();
-				System.out.println("Found Beacon Z!");
-				break;
-			}
-			sleep(100);
-		}
-		if (dir == 0) {
-			runForward(-150, 800);
-		}
-		
-		sleep(2000);
-		turnRight(500);
-		sleep(500);
-	}
+	
 	
 	public void goThroughSlope() {
 		runForward(500, 0);
@@ -125,32 +69,65 @@ public class Quad1 extends SalaSlammers{
 		}
 		
 		sleep(800);
-		runForward(300, 1000);
 		runForward(-150, 150);
 		sleep(2000);
-		turnLeft();
+		turnLeft(800);
 		sleep(1500);
 		
 		runForward(200, 1000);
 		sleep(2000);
 		
-		runForward(-200, 3000);
+		runForward(-200, 1500);
 		sleep(3000);
-		turnLeft(500);
+		turnLeft(TURN_LEFT_TIME);
 		sleep(1500);
 		runForward(300, 2000);
 		sleep(3000);
+	}
+	
+	public void navigateToRamp() {
+		int curDist = myGetPing(6);
+		System.out.println(curDist);
+		
+		turnLeft();
+		sleep(3000);
+		
+		int distToWall = 90;
+		if (curDist > distToWall || true) {
+			runUntilHit(120, distToWall);
+			sleep(2000);
+		}
+		else {
+			runUntilHit(-120, distToWall);
+			sleep(2000);
+		}
+		
+		turnRight(500);
+		sleep(2000);
+	
+		
+		findBeacon('Z');
+	}
+	
+	void goToRamp() {
+		runForward(200, 1100);
+		findBeacon('Z');
+		runForward(200, 300);
+		findBeacon('Z');
+		runForward(200, 500);
 	}
 	
 	public static void main(String[] args) {
 
 		Quad1 robot = new Quad1();
 		
-		robot.goToRamp();
-		robot.findBeacon('Z');
+//		robot.runPCAServo(0, 170);
+//		robot.goToRamp();
+		robot.runForward(200, 2200);
+		robot.sleep(4000);
+		robot.navigateToRamp();
 		robot.goThroughSlope();
 		robot.getSoilConductance();
-//		System.out.println(robot.getSlopeAngle());
 		robot.close();
 	}
 }

@@ -1,3 +1,4 @@
+import com.sun.glass.ui.Robot;
 
 public class Quad2 extends SalaSlammers {
 	
@@ -6,57 +7,68 @@ public class Quad2 extends SalaSlammers {
 	}
 	
 	public void work() 	{
-		runPCAServo(CHANNEL_SERVO_IR, 0);
+		moveIRSensor(-90);
+		runForward(200, 1100);
 		
-		runForward(200, 1500);
-		
-//		int distToWall = 90;
-//		while (true) {
-//			int dist = getPing(PING_PIN);
-//			System.out.println(dist);
-//			
-//			if (dist > distToWall) {
-//				allPCAStop();
-//				break;
-//			}
-//		}
 		sleep(2000);
-		for (int i = 0; i < 8; i++) {
-			if (isBeacon('S')) break;
-			runForward(150, 120);
+		
+		int beaconPos = 0;
+		for (int i = 0; i < 10; i++) {
+			if (isBeacon('S')) {
+				beaconPos = i;
+				break;
+			}
+			runForward(130, 150);
 			sleep(500);
 		}
-		sleep(2800);
-		turnRight();
-		sleep(3000);
 		
-		runForward(250, 2200);
-		sleep(5000);
-		turnRight();
-		sleep(3000);
-		runForward(1000);
-		sleep(2000);
-		turnRight();
-		sleep(2000);
+//		runForward(130, 150);
 		
-		runPCAServo(CHANNEL_SERVO_IR, 125);
-		
-		for (int i = 0; i < 6; i++) {
-			if (isBeacon('G')) break;
-			runForward(200);
-			sleep(500);
+		if (myGetPing(6) <= 15) {
+			runForward(-130, 350);
 		}
-		runForward(200);
+		
+		sleep(3000);
+		turnRight();
+		sleep(2000);
+		
+//		findBeacon('S');
+//		sleep(1000);
+		
+		runForward(200, 2200);
+		sleep(3000);
+		turnRight();
+		sleep(3000);
+		runForward(500);
+		sleep(3000);
+		
+		int dist = myGetPing(6);
+		
+		System.out.println(dist);
+		if (dist < 15) {
+			runForward(-120, 300);
+			sleep(2000);
+		}
+		turnRight(TURN_RIGHT_TIME);
+		sleep(2000);
+		
+		runForward(150, 3000);
 			
-		sleep(3000);
+		sleep(5000);
 		turnLeft();
-		sleep(3000);
-		runForward(4800);
+		sleep(2000);
+	}
+	
+	void goToReturningZone() {
+		findBeacon('G');
+		sleep(2000);
+		runUntilHit(150, 20);
 	}
 	
 	public static void main(String[] args) {
 		Quad2 robot = new Quad2();
 		robot.work();
+		robot.goToReturningZone();
 		
 		robot.close();
 	}

@@ -5,7 +5,7 @@ public class Quad4 extends SalaSlammers{
 	// Temperature
 	final private double SLOPE = -8.48;
 	final private double INTERCEPT = 707.3;
-	final private int TEMP_READING_COUNT = 50;
+	final private int TEMP_READING_COUNT = 20;
 	final private int CHANNEL_SERVO_TEMP = 0;
 	
 	private double getThermistorReading() {
@@ -31,18 +31,17 @@ public class Quad4 extends SalaSlammers{
 
 	public double measureTemperature() {
 		
-		int startPos = 180;
-		int endPos = 20;
+		int startPos = 170;
+		int endPos = 0;
 		
 		runPCAServo(CHANNEL_SERVO_TEMP, endPos);
-		sleep(2000);
+		sleep(5000);
 		
 		double result = temperature();
 		
 		// return the servo
 		sleep(1000);
 		runPCAServo(CHANNEL_SERVO_TEMP, startPos);
-		sleep(3000);
 		return result;
 	}
 	
@@ -56,51 +55,53 @@ public class Quad4 extends SalaSlammers{
 	}
 	
 	public void navigateTempBox() {
-		runForward(-200, 2000);
+		runForward(-150, 1000);
 		sleep(2000);
-		turnRight();
-		runPCAServo(CHANNEL_SERVO_IR, 60);
+		turnRight(1000);
+		moveIRSensor(0);
 		findBeacon('K');
-		turnRight(50);
-		sleep(100);
-		runForward(300, 2000);
-		sleep(2000);
+//		turnRight(50);
+//		sleep(100);
+		runUntilHit(200, 10);
+		sleep(1000);
 		System.out.println("Temperature: " + measureTemperature());
 	}
 	
 	public void goToBridge() {
 		sleep(2000);
-		runPCAServo(CHANNEL_SERVO_IR, 0);
 		
 		runForward(-150, 200);
 		sleep(2000);
 		turnLeft();
 		sleep(2000);
 		
-		while(true) {
-			if (isBeacon('N')) break;
-			runForward(200);
-			sleep(500);
-		}		
-		
+		runUntilHit(220, 15);
 		sleep(2000);
+		
+		runForward(-150, 800);
+		sleep(2000);
+		
 		turnRight();
 		sleep(2000);
-		runForward(200, 0);
+		findBeacon('N');
+		sleep(2000);
 		
-		while (true) {
-			int dist = getPing(PING_PIN);
-			int distToBrigde = 30;
-			if (dist < distToBrigde) {
-				allPCAStop();
-				break;
-			}
-		}
-		runForward(100);
-		sleep(2000);
-		turnRight();
-		sleep(2000);
-//		runForward(4000);
+		runUntilHit(150, 30);
+		sleep(3000);
+	}
+	
+	public void crossBridge() {
+		runForward(-150, 200);
+		sleep(2500);
+		
+		turnRight(TURN_RIGHT_TIME + 300);
+		sleep(3000);
+		
+		runForward(-200, 800);
+		sleep(3000);
+		
+		runForward(200, 4500);
+
 	}
 	
 	public static void main(String[] args) {
@@ -109,6 +110,8 @@ public class Quad4 extends SalaSlammers{
 		robot.downSlope();
 		robot.navigateTempBox();
 		robot.goToBridge();
+		robot.crossBridge();
+		System.out.println(robot.temperature());
 		
 		robot.close();
 	}
