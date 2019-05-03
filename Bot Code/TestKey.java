@@ -67,6 +67,5 @@ public class TestKey extends SalaSlammers{
 	
 	public static void main(String[] args) {
 		TestKey robot = new TestKey();
-//		robot.runForward(200, 0);
 	}
 }
