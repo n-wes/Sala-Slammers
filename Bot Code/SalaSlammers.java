@@ -19,11 +19,6 @@ public class SalaSlammers extends ArduinoUno {
 	//	------------------------------------------------------
 	//	Constructor
 
-	public final int UP_ARROW = 38;
-	public final int DOWN_ARROW = 40;
-	public final int RIGHT_ARROW = 39;
-	public final int LEFT_ARROW = 37;
-
 	public SalaSlammers() {
 		super();
 		setPort("COM9");
