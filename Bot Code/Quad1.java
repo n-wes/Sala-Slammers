@@ -1,3 +1,6 @@
+// We have 2 solutions for navigating to the ramp (after crossing the bridge):
+// 1: goToRamp() - can complete the task for all positions of the bridge, but takes more time
+// 2: navigateToRamp() - need to know the relative position of the bridge first, faster, may be used when running out of time
 
 public class Quad1 extends SalaSlammers{
 	final private int CHANNEL_SERVO_CONDUCTIVITY = 0;
@@ -85,47 +88,77 @@ public class Quad1 extends SalaSlammers{
 		sleep(3000);
 	}
 	
-	public void navigateToRamp() {
-		int curDist = myGetPing(6);
-		System.out.println(curDist);
-		
-		turnLeft();
-		sleep(3000);
-		
-		int distToWall = 90;
-		if (curDist > distToWall || true) {
-			runUntilHit(120, distToWall);
-			sleep(2000);
+	public double findTurningAngle() {
+		double angleX = 0;
+
+		for (int i = 0; i <= 120; i += 5) {
+			runPCAServo(CHANNEL_SERVO_IR, i);
+			char beacon = getIRChar();
+			System.out.println(i + ": " + beacon);
+			if (beacon == 'Z') {
+				angleX = i;
+				break;
+			}
 		}
-		else {
-			runUntilHit(-120, distToWall);
-			sleep(2000);
-		}
-		
-		turnRight(500);
-		sleep(2000);
-	
-		
-		findBeacon('Z');
+
+		double angleTheta = 90 - angleX;
+
+		double d = 157;
+		double r = 73;
+
+		double angleAlpha = Math.asin(r * Math.sin(Math.toDegrees(angleTheta)) / d);
+		angleAlpha = Math.toDegrees(angleAlpha);
+
+		return 180 - (angleTheta + 90 - angleAlpha);
+	}
+
+	// 0: go backward, 1: forward
+	public int turnPerpendicularRamp() {
+		double turningAngle = findTurningAngle();
+		System.out.println(turningAngle);
+
+		int timeTurn = (int) (TURN_LEFT_TIME * turningAngle / 90.0);
+
+		turnLeft(timeTurn);
+		if (turningAngle < 80) return 0;
+		else if (turningAngle > 100) return 1;
+		return 2;
 	}
 	
-	void goToRamp() {
-		runForward(200, 1100);
+	public void goToRamp() {
+
+		int dir = turnPerpendicularRamp();
+		sleep(3000);
+		moveIRServo(-90);
+
+		for (int i = 0; i < 15; i++) {
+			if (dir == 2) break;
+
+			if (dir == 1) runForward(150, 200);
+			else runForward(-130, 200);
+
+			if (isBeacon('Z')) {
+				allPCAStop();
+				System.out.println("Found Beacon Z!");
+				break;
+			}
+			sleep(100);
+		}
+
+		sleep(2000);
+		turnRight();
+		sleep(500);
 		findBeacon('Z');
-		runForward(200, 300);
-		findBeacon('Z');
-		runForward(200, 500);
 	}
 	
 	public static void main(String[] args) {
 
 		Quad1 robot = new Quad1();
 		
-//		robot.runPCAServo(0, 170);
-//		robot.goToRamp();
 		robot.runForward(200, 2200);
 		robot.sleep(4000);
-		robot.navigateToRamp();
+		robot.goToRamp();
+		// robot.navigateToRamp();
 		robot.goThroughSlope();
 		robot.getSoilConductance();
 		robot.close();
